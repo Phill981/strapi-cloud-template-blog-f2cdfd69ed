@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mentors",
+  "info": {
+    "singularName": "mentor",
+    "pluralName": "mentors",
+    "displayName": "Mentor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "topics": {
+      "type": "json"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "active": {
+      "type": "boolean"
+    }
+  }
+}

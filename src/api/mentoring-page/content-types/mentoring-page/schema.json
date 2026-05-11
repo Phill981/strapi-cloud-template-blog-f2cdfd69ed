@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mentoring_pages",
+  "info": {
+    "singularName": "mentoring-page",
+    "pluralName": "mentoring-pages",
+    "displayName": "MentoringPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string"
+    },
+    "heroLead": {
+      "type": "text"
+    },
+    "heroDescription": {
+      "type": "text"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sliderInstruction": {
+      "type": "text"
+    },
+    "howItWorksTitle": {
+      "type": "text"
+    },
+    "howItWorksSubtitle": {
+      "type": "text"
+    },
+    "howItWorksSteps": {
+      "type": "component",
+      "component": "shared.how-it-works-steps",
+      "repeatable": true
+    },
+    "finalCtaTitle": {
+      "type": "text"
+    }
+  }
+}
