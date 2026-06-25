@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ambassador_requirements",
+  "info": {
+    "singularName": "ambassador-requirement",
+    "pluralName": "ambassador-requirements",
+    "displayName": "Ambassador Requirement"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "requirement": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

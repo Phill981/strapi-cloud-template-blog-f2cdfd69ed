@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "school_benefits",
+  "info": {
+    "singularName": "school-benefit",
+    "pluralName": "school-benefits",
+    "displayName": "School Benefit"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

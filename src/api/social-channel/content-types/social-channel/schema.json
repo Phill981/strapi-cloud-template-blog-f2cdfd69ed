@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "social_channels",
+  "info": {
+    "singularName": "social-channel",
+    "pluralName": "social-channels",
+    "displayName": "Social Channel"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "iconType": {
+      "type": "enumeration",
+      "enum": [
+        "youtube",
+        "instagram",
+        "tiktok",
+        "spotify",
+        "linkedin",
+        "discord"
+      ]
+    },
+    "href": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mentoring_topics",
+  "info": {
+    "singularName": "mentoring-topic",
+    "pluralName": "mentoring-topics",
+    "displayName": "Mentoring Topic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

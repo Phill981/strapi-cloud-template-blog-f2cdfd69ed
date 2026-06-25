@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "engagement_qualities",
+  "info": {
+    "singularName": "engagement-quality",
+    "pluralName": "engagement-qualities",
+    "displayName": "Engagement Quality"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

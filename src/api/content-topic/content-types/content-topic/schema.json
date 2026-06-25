@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_topics",
+  "info": {
+    "singularName": "content-topic",
+    "pluralName": "content-topics",
+    "displayName": "Content Topic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

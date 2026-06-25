@@ -18,39 +18,44 @@
       "type": "date"
     },
     "endDate": {
-      "type": "datetime"
+      "type": "date"
+    },
+    "time": {
+      "type": "string"
     },
     "location": {
       "type": "string"
     },
-    "type": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
-    "image": {
-      "type": "media",
-      "multiple": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "memberOnly": {
       "type": "boolean"
     },
-    "registrationLink": {
-      "type": "string"
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::event-category.event-category"
     },
-    "state": {
+    "imageMode": {
       "type": "enumeration",
       "enum": [
-        "upcoming",
-        "past"
+        "background",
+        "inline"
       ]
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }

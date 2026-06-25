@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "application_steps",
+  "info": {
+    "singularName": "application-step",
+    "pluralName": "application-steps",
+    "displayName": "Application Step"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

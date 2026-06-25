@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "community_values",
+  "info": {
+    "singularName": "community-value",
+    "pluralName": "community-values",
+    "displayName": "Community Value"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

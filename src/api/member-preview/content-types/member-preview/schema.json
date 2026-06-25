@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "member_previews",
+  "info": {
+    "singularName": "member-preview",
+    "pluralName": "member-previews",
+    "displayName": "Member Preview"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "video",
+        "photo"
+      ]
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

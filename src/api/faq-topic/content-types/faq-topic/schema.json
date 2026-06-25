@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faq_topics",
+  "info": {
+    "singularName": "faq-topic",
+    "pluralName": "faq-topics",
+    "displayName": "Faq Topic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.item"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

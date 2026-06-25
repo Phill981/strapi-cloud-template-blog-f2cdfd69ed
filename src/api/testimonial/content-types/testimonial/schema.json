@@ -12,7 +12,7 @@
   "pluginOptions": {},
   "attributes": {
     "quote": {
-      "type": "string"
+      "type": "text"
     },
     "name": {
       "type": "string"
@@ -20,18 +20,24 @@
     "role": {
       "type": "string"
     },
-    "image": {
+    "photo": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
-    "featured": {
-      "type": "boolean"
+    "placement": {
+      "type": "enumeration",
+      "enum": [
+        "homepage",
+        "impact",
+        "wirkung",
+        "community"
+      ]
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }

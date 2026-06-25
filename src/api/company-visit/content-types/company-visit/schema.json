@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "company_visits",
+  "info": {
+    "singularName": "company-visit",
+    "pluralName": "company-visits",
+    "displayName": "Company Visit"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "company": {
+      "type": "string"
+    },
+    "activity": {
+      "type": "string"
+    },
+    "impact": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "text"
+    },
+    "hr": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

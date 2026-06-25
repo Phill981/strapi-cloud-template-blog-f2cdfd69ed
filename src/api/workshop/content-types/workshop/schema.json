@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "workshops",
+  "info": {
+    "singularName": "workshop",
+    "pluralName": "workshops",
+    "displayName": "Workshop"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "dauer": {
+      "type": "string"
+    },
+    "stufe": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

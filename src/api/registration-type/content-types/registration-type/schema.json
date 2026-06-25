@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "registration_types",
+  "info": {
+    "singularName": "registration-type",
+    "pluralName": "registration-types",
+    "displayName": "Registration Type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

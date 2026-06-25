@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "impact_metrics",
+  "info": {
+    "singularName": "impact-metric",
+    "pluralName": "impact-metrics",
+    "displayName": "Impact Metric"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page": {
+      "type": "enumeration",
+      "enum": [
+        "home",
+        "impact",
+        "wirkung"
+      ]
+    },
+    "slug": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "decimal"
+    },
+    "prefix": {
+      "type": "string"
+    },
+    "suffix": {
+      "type": "string"
+    },
+    "decimals": {
+      "type": "integer"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

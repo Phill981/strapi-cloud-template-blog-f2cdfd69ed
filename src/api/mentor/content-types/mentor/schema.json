@@ -18,23 +18,25 @@
       "type": "string"
     },
     "description": {
-      "type": "string"
+      "type": "text"
     },
     "topics": {
-      "type": "json"
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::mentoring-topic.mentoring-topic"
     },
-    "image": {
+    "photo": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
-    "active": {
+    "featured": {
       "type": "boolean"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }

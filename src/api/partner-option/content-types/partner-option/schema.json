@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partner_options",
+  "info": {
+    "singularName": "partner-option",
+    "pluralName": "partner-options",
+    "displayName": "Partner Option"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

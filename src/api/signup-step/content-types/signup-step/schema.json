@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "signup_steps",
+  "info": {
+    "singularName": "signup-step",
+    "pluralName": "signup-steps",
+    "displayName": "Signup Step"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "step": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

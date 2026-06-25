@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_videos",
+  "info": {
+    "singularName": "content-video",
+    "pluralName": "content-videos",
+    "displayName": "Content Video"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::content-topic.content-topic"
+    },
+    "length": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

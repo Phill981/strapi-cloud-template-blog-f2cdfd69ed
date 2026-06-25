@@ -16,16 +16,22 @@
     },
     "image": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
-    "link": {
+    "url": {
       "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "press",
+        "sponsor",
+        "partner",
+        "donor"
+      ]
     },
     "order": {
       "type": "integer"

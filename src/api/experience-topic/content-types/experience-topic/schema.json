@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experience_topics",
+  "info": {
+    "singularName": "experience-topic",
+    "pluralName": "experience-topics",
+    "displayName": "Experience Topic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

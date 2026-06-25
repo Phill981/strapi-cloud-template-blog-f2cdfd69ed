@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "member_stories",
+  "info": {
+    "singularName": "member-story",
+    "pluralName": "member-stories",
+    "displayName": "Member Story"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}
