@@ -4,7 +4,8 @@
   "info": {
     "singularName": "success-story",
     "pluralName": "success-stories",
-    "displayName": "Success Story"
+    "displayName": "Impact · Success Story",
+    "description": "Used on: /impact"
   },
   "options": {
     "draftAndPublish": true

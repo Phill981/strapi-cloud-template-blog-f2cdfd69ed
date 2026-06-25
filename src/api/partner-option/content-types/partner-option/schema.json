@@ -4,7 +4,8 @@
   "info": {
     "singularName": "partner-option",
     "pluralName": "partner-options",
-    "displayName": "Partner Option"
+    "displayName": "Unternehmen · Partner Option",
+    "description": "Used on: /unternehmen"
   },
   "options": {
     "draftAndPublish": true

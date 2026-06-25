@@ -4,7 +4,8 @@
   "info": {
     "singularName": "testimonial",
     "pluralName": "testimonials",
-    "displayName": "Testimonial"
+    "displayName": "Global · Testimonial",
+    "description": "Used on: /, /impact, /wirkung (filter by placement)"
   },
   "options": {
     "draftAndPublish": true

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "engagement-quality",
     "pluralName": "engagement-qualities",
-    "displayName": "Engagement Quality"
+    "displayName": "Engagement · Engagement Quality",
+    "description": "Used on: /engagement"
   },
   "options": {
     "draftAndPublish": true

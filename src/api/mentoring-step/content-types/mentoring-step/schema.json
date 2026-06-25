@@ -4,7 +4,8 @@
   "info": {
     "singularName": "mentoring-step",
     "pluralName": "mentoring-steps",
-    "displayName": "Mentoring Step"
+    "displayName": "Mentoring · Mentoring Step",
+    "description": "Used on: /mentoring (\"Wie funktioniert das Mentoring?\")"
   },
   "options": {
     "draftAndPublish": true

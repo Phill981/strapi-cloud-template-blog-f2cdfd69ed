@@ -4,7 +4,8 @@
   "info": {
     "singularName": "school-visit",
     "pluralName": "school-visits",
-    "displayName": "School Visit"
+    "displayName": "Schulen · School Visit",
+    "description": "Used on: /schulen"
   },
   "options": {
     "draftAndPublish": true

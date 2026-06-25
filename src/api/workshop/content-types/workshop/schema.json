@@ -4,7 +4,8 @@
   "info": {
     "singularName": "workshop",
     "pluralName": "workshops",
-    "displayName": "Workshop"
+    "displayName": "Schulen · Workshop",
+    "description": "Used on: /schulen"
   },
   "options": {
     "draftAndPublish": true

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "impact-metric",
     "pluralName": "impact-metrics",
-    "displayName": "Impact Metric"
+    "displayName": "Global · Impact Metric",
+    "description": "Used on: /, /impact, /wirkung (filter by page)"
   },
   "options": {
     "draftAndPublish": true

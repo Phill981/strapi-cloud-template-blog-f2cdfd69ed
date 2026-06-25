@@ -4,7 +4,8 @@
   "info": {
     "singularName": "mentor",
     "pluralName": "mentors",
-    "displayName": "Mentor"
+    "displayName": "Mentoring · Mentor",
+    "description": "Used on: / (preview) and /mentoring"
   },
   "options": {
     "draftAndPublish": true

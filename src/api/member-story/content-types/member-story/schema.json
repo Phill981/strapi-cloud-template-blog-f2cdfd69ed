@@ -4,7 +4,8 @@
   "info": {
     "singularName": "member-story",
     "pluralName": "member-stories",
-    "displayName": "Member Story"
+    "displayName": "Wirkung · Member Story",
+    "description": "Used on: /wirkung"
   },
   "options": {
     "draftAndPublish": true

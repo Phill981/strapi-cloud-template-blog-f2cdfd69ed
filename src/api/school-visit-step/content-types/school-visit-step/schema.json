@@ -4,7 +4,8 @@
   "info": {
     "singularName": "school-visit-step",
     "pluralName": "school-visit-steps",
-    "displayName": "School Visit Step"
+    "displayName": "Schulen · School Visit Step",
+    "description": "Used on: /schulen (Ablauf)"
   },
   "options": {
     "draftAndPublish": true

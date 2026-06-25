@@ -4,7 +4,8 @@
   "info": {
     "singularName": "ambassador-requirement",
     "pluralName": "ambassador-requirements",
-    "displayName": "Ambassador Requirement"
+    "displayName": "Creator · Ambassador Requirement",
+    "description": "Used on: /creator"
   },
   "options": {
     "draftAndPublish": true

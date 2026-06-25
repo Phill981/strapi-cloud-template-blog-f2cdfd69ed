@@ -4,7 +4,8 @@
   "info": {
     "singularName": "engagement-area",
     "pluralName": "engagement-areas",
-    "displayName": "Engagement Area"
+    "displayName": "Engagement · Engagement Area",
+    "description": "Used on: /engagement"
   },
   "options": {
     "draftAndPublish": true

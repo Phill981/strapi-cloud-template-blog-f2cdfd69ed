@@ -4,7 +4,8 @@
   "info": {
     "singularName": "faq-topic",
     "pluralName": "faq-topics",
-    "displayName": "Faq Topic"
+    "displayName": "FAQ · Faq Topic",
+    "description": "Used on: /faq"
   },
   "options": {
     "draftAndPublish": true

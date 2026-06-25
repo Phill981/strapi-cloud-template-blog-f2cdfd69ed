@@ -81,6 +81,49 @@ const PLURALS = {
 	'signup-step': 'signup-steps'
 };
 
+// Page hints for content managers. [sidebarGroup, "where it's used"].
+// The Content Manager sorts collection types by displayName, so prefixing with
+// the group clusters each page's content together; the description states the route(s).
+const META = {
+	logo: ['Global', '/, /spenden, /unternehmen, /universitaeten (filter by category)'],
+	mentor: ['Mentoring', '/ (preview) and /mentoring'],
+	'mentoring-topic': ['Mentoring', '/mentoring (topic filter + mentor topics)'],
+	testimonial: ['Global', '/, /impact, /wirkung (filter by placement)'],
+	'social-channel': ['Global', '/ and /content'],
+	'impact-metric': ['Global', '/, /impact, /wirkung (filter by page)'],
+	'event-category': ['Events', '/ and /events'],
+	event: ['Events', '/ and /events'],
+	'blog-category': ['Blog', '/blog'],
+	'blog-post': ['Blog', '/blog'],
+	'faq-topic': ['FAQ', '/faq'],
+	'mentoring-step': ['Mentoring', '/mentoring ("Wie funktioniert das Mentoring?")'],
+	'experience-topic': ['Mentoring-DB', '/mentoring/datenbank'],
+	'mentoring-experience': ['Mentoring-DB', '/mentoring/datenbank'],
+	'timeline-milestone': ['Ueber-uns', '/ueber-uns (timeline)'],
+	'about-fact': ['Ueber-uns', '/ueber-uns (facts)'],
+	'partner-option': ['Unternehmen', '/unternehmen'],
+	'company-visit': ['Unternehmen', '/unternehmen'],
+	'school-benefit': ['Schulen', '/schulen'],
+	workshop: ['Schulen', '/schulen'],
+	'school-visit': ['Schulen', '/schulen'],
+	'school-visit-step': ['Schulen', '/schulen (Ablauf)'],
+	'ambassador-benefit': ['Creator', '/creator'],
+	'ambassador-step': ['Creator', '/creator'],
+	'ambassador-requirement': ['Creator', '/creator'],
+	'community-value': ['Community', '/community'],
+	'member-preview': ['Community', '/community'],
+	'success-story': ['Impact', '/impact'],
+	'member-story': ['Wirkung', '/wirkung'],
+	'engagement-highlight': ['Engagement', '/engagement'],
+	'engagement-area': ['Engagement', '/engagement'],
+	'engagement-quality': ['Engagement', '/engagement'],
+	'application-step': ['Engagement', '/engagement (Bewerbungsprozess)'],
+	'content-topic': ['Content', '/content'],
+	'content-video': ['Content', '/content'],
+	'registration-type': ['Anmeldung', '/anmeldung'],
+	'signup-step': ['Anmeldung', '/anmeldung']
+};
+
 const MODEL = {
 	// --- shared collections ---
 	logo: { name: string(), image: media(), url: string(), category: enumeration('press', 'sponsor', 'partner', 'donor'), order: order() },
@@ -160,10 +203,19 @@ function writeFile(file, contents) {
 function generateType(singular, attributes) {
 	const plural = PLURALS[singular];
 	if (!plural) throw new Error(`Missing plural for "${singular}"`);
+	const meta = META[singular];
+	if (!meta) throw new Error(`Missing META (page hint) for "${singular}"`);
+	const [group, usedOn] = meta;
 	const schema = {
 		kind: 'collectionType',
 		collectionName: plural.replace(/-/g, '_'),
-		info: { singularName: singular, pluralName: plural, displayName: titleCase(singular) },
+		info: {
+			singularName: singular,
+			pluralName: plural,
+			// "Group · Name" so the admin sidebar clusters each page's types together.
+			displayName: `${group} · ${titleCase(singular)}`,
+			description: `Used on: ${usedOn}`
+		},
 		options: { draftAndPublish: true },
 		pluginOptions: {},
 		attributes

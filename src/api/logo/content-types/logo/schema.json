@@ -4,7 +4,8 @@
   "info": {
     "singularName": "logo",
     "pluralName": "logos",
-    "displayName": "Logo"
+    "displayName": "Global · Logo",
+    "description": "Used on: /, /spenden, /unternehmen, /universitaeten (filter by category)"
   },
   "options": {
     "draftAndPublish": true

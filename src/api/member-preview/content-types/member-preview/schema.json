@@ -4,7 +4,8 @@
   "info": {
     "singularName": "member-preview",
     "pluralName": "member-previews",
-    "displayName": "Member Preview"
+    "displayName": "Community · Member Preview",
+    "description": "Used on: /community"
   },
   "options": {
     "draftAndPublish": true

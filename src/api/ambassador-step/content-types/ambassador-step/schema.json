@@ -4,7 +4,8 @@
   "info": {
     "singularName": "ambassador-step",
     "pluralName": "ambassador-steps",
-    "displayName": "Ambassador Step"
+    "displayName": "Creator · Ambassador Step",
+    "description": "Used on: /creator"
   },
   "options": {
     "draftAndPublish": true

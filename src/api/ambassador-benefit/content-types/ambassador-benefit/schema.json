@@ -4,7 +4,8 @@
   "info": {
     "singularName": "ambassador-benefit",
     "pluralName": "ambassador-benefits",
-    "displayName": "Ambassador Benefit"
+    "displayName": "Creator · Ambassador Benefit",
+    "description": "Used on: /creator"
   },
   "options": {
     "draftAndPublish": true

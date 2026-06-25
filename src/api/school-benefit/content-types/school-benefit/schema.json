@@ -4,7 +4,8 @@
   "info": {
     "singularName": "school-benefit",
     "pluralName": "school-benefits",
-    "displayName": "School Benefit"
+    "displayName": "Schulen · School Benefit",
+    "description": "Used on: /schulen"
   },
   "options": {
     "draftAndPublish": true

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "content-video",
     "pluralName": "content-videos",
-    "displayName": "Content Video"
+    "displayName": "Content · Content Video",
+    "description": "Used on: /content"
   },
   "options": {
     "draftAndPublish": true

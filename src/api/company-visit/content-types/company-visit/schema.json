@@ -4,7 +4,8 @@
   "info": {
     "singularName": "company-visit",
     "pluralName": "company-visits",
-    "displayName": "Company Visit"
+    "displayName": "Unternehmen · Company Visit",
+    "description": "Used on: /unternehmen"
   },
   "options": {
     "draftAndPublish": true

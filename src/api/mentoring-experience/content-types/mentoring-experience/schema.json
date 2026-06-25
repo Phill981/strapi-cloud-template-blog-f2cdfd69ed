@@ -4,7 +4,8 @@
   "info": {
     "singularName": "mentoring-experience",
     "pluralName": "mentoring-experiences",
-    "displayName": "Mentoring Experience"
+    "displayName": "Mentoring-DB · Mentoring Experience",
+    "description": "Used on: /mentoring/datenbank"
   },
   "options": {
     "draftAndPublish": true

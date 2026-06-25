@@ -4,7 +4,8 @@
   "info": {
     "singularName": "engagement-highlight",
     "pluralName": "engagement-highlights",
-    "displayName": "Engagement Highlight"
+    "displayName": "Engagement · Engagement Highlight",
+    "description": "Used on: /engagement"
   },
   "options": {
     "draftAndPublish": true

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "timeline-milestone",
     "pluralName": "timeline-milestones",
-    "displayName": "Timeline Milestone"
+    "displayName": "Ueber-uns · Timeline Milestone",
+    "description": "Used on: /ueber-uns (timeline)"
   },
   "options": {
     "draftAndPublish": true

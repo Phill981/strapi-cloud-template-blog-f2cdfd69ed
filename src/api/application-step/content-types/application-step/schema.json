@@ -4,7 +4,8 @@
   "info": {
     "singularName": "application-step",
     "pluralName": "application-steps",
-    "displayName": "Application Step"
+    "displayName": "Engagement · Application Step",
+    "description": "Used on: /engagement (Bewerbungsprozess)"
   },
   "options": {
     "draftAndPublish": true

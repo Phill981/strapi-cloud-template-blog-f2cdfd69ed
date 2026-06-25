@@ -4,7 +4,8 @@
   "info": {
     "singularName": "registration-type",
     "pluralName": "registration-types",
-    "displayName": "Registration Type"
+    "displayName": "Anmeldung · Registration Type",
+    "description": "Used on: /anmeldung"
   },
   "options": {
     "draftAndPublish": true

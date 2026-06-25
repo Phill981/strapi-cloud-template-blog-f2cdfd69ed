@@ -4,7 +4,8 @@
   "info": {
     "singularName": "content-topic",
     "pluralName": "content-topics",
-    "displayName": "Content Topic"
+    "displayName": "Content · Content Topic",
+    "description": "Used on: /content"
   },
   "options": {
     "draftAndPublish": true

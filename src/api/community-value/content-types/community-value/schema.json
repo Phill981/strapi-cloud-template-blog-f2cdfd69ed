@@ -4,7 +4,8 @@
   "info": {
     "singularName": "community-value",
     "pluralName": "community-values",
-    "displayName": "Community Value"
+    "displayName": "Community · Community Value",
+    "description": "Used on: /community"
   },
   "options": {
     "draftAndPublish": true
