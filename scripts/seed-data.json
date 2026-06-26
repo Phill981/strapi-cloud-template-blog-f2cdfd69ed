@@ -1,0 +1,1969 @@
+{
+  "event-categories": [
+    {
+      "slug": "webinar",
+      "label": "Online Webinare",
+      "mobileLabel": "Webinare",
+      "icon": "Video",
+      "heading": "Wissen live erleben",
+      "description": "Unsere Webinare bringen Dich in Kontakt mit Expert:innen zu allen möglichen Themen: Ob Mental Health, Studienfinanzierung oder Einblicke in neue Berufsfelder : Hör zu, lern Neues, und stell Fragen – von überall aus.",
+      "order": 0
+    },
+    {
+      "slug": "unternehmen",
+      "label": "Unternehmensbesuche",
+      "mobileLabel": "Besuche",
+      "icon": "Building",
+      "heading": "Hinter die Kulissen",
+      "description": "Besuch gemeinsam mit uns verschiedene Unternehmen aus den unterschiedlichsten Branchen für authentische Einblicke, exklusive Networking-Möglichkeiten und interaktive Angebote.",
+      "order": 1
+    },
+    {
+      "slug": "community",
+      "label": "Community Meetups",
+      "mobileLabel": "Meetups",
+      "icon": "Users",
+      "heading": "Gemeinsam wachsen",
+      "description": "Triff andere Legmon Member im Rahmen von regelmäßigen Local Hub Meetups, z.B. beim Picknick, Paddel oder zum Kaffee und melde Dich rechtzeitig für unsere Sommer- & Winter-Events an, bei denen wir mit 50 Membern für ein Seminar-Wochenende verreisen.",
+      "order": 2
+    },
+    {
+      "slug": "konferenzen-messen",
+      "label": "Konferenzen & Messen",
+      "mobileLabel": "Messen",
+      "icon": "Ticket",
+      "heading": "Kontakte knüpfen",
+      "description": "Ob Freitickets für spannende Messen, Einladungen zu politischen Konferenzen oder ein spontaner Dreh mit einem Fernsehsender – Legmon bietet noch viele weitere, einzigartige Veranstaltungen und Vorteile",
+      "order": 3
+    }
+  ],
+  "events": [
+    {
+      "title": "Karriere im Consulting",
+      "date": "2024-02-15",
+      "time": "18:00",
+      "location": "Online",
+      "memberOnly": false,
+      "category": "webinar",
+      "imageMode": "background",
+      "image": null,
+      "description": "Erfahre von erfahrenen Consultants, wie der Einstieg in die Beratungsbranche gelingt.",
+      "link": "#",
+      "order": 0
+    },
+    {
+      "title": "Besuch bei Google Berlin",
+      "date": "2024-02-20",
+      "time": "14:00",
+      "location": "Berlin",
+      "memberOnly": true,
+      "category": "unternehmen",
+      "imageMode": "inline",
+      "image": null,
+      "description": "Erhalte einen exklusiven Einblick in die Arbeitswelt bei Google und lerne verschiedene Rollen im Unternehmen kennen.",
+      "link": "#",
+      "order": 1
+    },
+    {
+      "title": "Community Meetup München",
+      "date": "2024-02-25",
+      "time": "19:00",
+      "location": "München",
+      "memberOnly": false,
+      "category": "community",
+      "imageMode": "inline",
+      "image": null,
+      "description": "Lerne andere Legmon-Mitglieder in entspannter Atmosphäre kennen und tausche dich über Studium, Karriere und persönliche Erfahrungen aus.",
+      "link": "#",
+      "order": 2
+    },
+    {
+      "title": "Bewerbungsstrategien für Top-Unternehmen",
+      "date": "2024-03-01",
+      "time": "17:00",
+      "location": "Online",
+      "memberOnly": false,
+      "category": "webinar",
+      "imageMode": "background",
+      "image": null,
+      "description": "In diesem Workshop geht es um erfolgreiche Bewerbungen bei DAX-Unternehmen und Startups.",
+      "link": "#",
+      "order": 3
+    },
+    {
+      "title": "Besuch bei Siemens",
+      "date": "2024-03-10",
+      "time": "15:00",
+      "location": "München",
+      "memberOnly": true,
+      "category": "unternehmen",
+      "imageMode": "inline",
+      "image": null,
+      "description": "Lerne die verschiedenen Karrierewege bei Siemens kennen und erfahre, welche Einstiegsoptionen es für Studierende und Berufseinsteiger:innen gibt.",
+      "link": "#",
+      "order": 4
+    },
+    {
+      "title": "Community Meetup Hamburg",
+      "date": "2024-03-15",
+      "time": "18:30",
+      "location": "Hamburg",
+      "memberOnly": false,
+      "category": "community",
+      "imageMode": "background",
+      "image": null,
+      "description": "Unser regionales Treffen in Hamburg bringt Community Member aus der Umgebung zusammen.",
+      "link": "#",
+      "order": 5
+    },
+    {
+      "title": "Community Meetup Frankfurt",
+      "date": "2024-03-15",
+      "time": "19:30",
+      "location": "Frankfurt am Main",
+      "memberOnly": false,
+      "category": "community",
+      "imageMode": "inline",
+      "image": null,
+      "description": "Beim Meetup in Frankfurt kannst du neue Community Member kennenlernen und bestehende Kontakte vertiefen.",
+      "link": "#",
+      "order": 6
+    },
+    {
+      "title": "Messe in Mannheim",
+      "date": "2024-04-10",
+      "endDate": "2024-04-12",
+      "time": "9:30",
+      "location": "Mannheim",
+      "memberOnly": true,
+      "category": "konferenzen-messen",
+      "imageMode": "background",
+      "image": null,
+      "description": "Die Messe in Mannheim bringt verschiedene Unternehmenspartner und interessierte Talente zusammen.",
+      "link": "#",
+      "order": 7
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Legmons Netzwerk ist für mich eine sehr wertvolle Plattform: Ich kann mich mit gleichgesinnten Menschen zu mir wichtigen Themen austauschen. Gleichzeitig bekomme ich viele neue Eindrücke, etwa durch exklusive Veranstaltungen und Seminare der Legmon-Partnerorganisationen.",
+      "name": "Susanna Okup (21)",
+      "role": "Erstakademikerin mit Migrationsgeschichte an der Universität Osnabrück",
+      "photo": null,
+      "placement": "homepage",
+      "order": 0
+    },
+    {
+      "quote": "Legmon hat mein Leben verändert. Ohne das Mentoring hätte ich den Weg an die Uni nie gefunden.",
+      "name": "Maria K.",
+      "role": "Studentin der Wirtschaftswissenschaften",
+      "photo": null,
+      "placement": "homepage",
+      "order": 1
+    },
+    {
+      "quote": "Von der Ausbildung zum Traumjob - dank der Community und den Kontakten zu Unternehmen.",
+      "name": "Ahmed T.",
+      "role": "Erstakademiker, jetzt bei einem DAX-Unternehmen",
+      "photo": null,
+      "placement": "homepage",
+      "order": 2
+    },
+    {
+      "quote": "Die Community gibt mir Kraft. Endlich Menschen, die verstehen, was es heißt, als Erste in der Familie zu studieren.",
+      "name": "Lisa S.",
+      "role": "Masterstudentin der Psychologie",
+      "photo": null,
+      "placement": "homepage",
+      "order": 3
+    },
+    {
+      "quote": "Durch Legmon habe ich den Mut gefunden, mich für ein Stipendium zu bewerben. Heute studiere ich an meiner Traumuni.",
+      "name": "Maria K.",
+      "role": "Studentin, Mentee seit 2022",
+      "photo": null,
+      "placement": "impact",
+      "order": 0
+    },
+    {
+      "quote": "Als Mentorin kann ich meine Erfahrungen weitergeben und sehe, wie junge Talente wachsen. Das ist unglaublich bereichernd.",
+      "name": "Dr. Sarah M.",
+      "role": "Mentorin, Senior Consultant",
+      "photo": null,
+      "placement": "impact",
+      "order": 1
+    },
+    {
+      "quote": "Das Netzwerk bei Legmon hat mir geholfen, meinen Traumjob zu finden. Die Community ist einfach großartig.",
+      "name": "Ahmed T.",
+      "role": "Alumni, Software Engineer",
+      "photo": null,
+      "placement": "impact",
+      "order": 2
+    },
+    {
+      "quote": "Ohne Legmon hätte ich nie gewusst, welche Möglichkeiten mir offenstehen. Jetzt bin ich selbst Mentorin und möchte anderen helfen.",
+      "name": "Lisa S.",
+      "role": "Alumni, Jura-Studentin",
+      "photo": null,
+      "placement": "impact",
+      "order": 3
+    },
+    {
+      "quote": "Legmons Netzwerk ist für mich eine sehr wertvolle Plattform: Ich kann mich mit gleichgesinnten Menschen zu mir wichtigen Themen austauschen. Gleichzeitig bekomme ich viele neue Eindrücke, etwa durch exklusive Veranstaltungen und Seminare der Legmon-Partnerorganisationen.",
+      "name": "Susanna Okup (21)",
+      "role": "Erstakademikerin mit Migrationsgeschichte an der Universität Osnabrück",
+      "photo": null,
+      "placement": "wirkung",
+      "order": 4
+    },
+    {
+      "quote": "Legmon hat mein Leben verändert. Ohne das Mentoring hätte ich den Weg an die Uni nie gefunden.",
+      "name": "Maria K.",
+      "role": "Studentin der Wirtschaftswissenschaften",
+      "photo": null,
+      "placement": "wirkung",
+      "order": 5
+    },
+    {
+      "quote": "Von der Ausbildung zum Traumjob – dank der Community und den Kontakten zu Unternehmen.",
+      "name": "Ahmed T.",
+      "role": "Erstakademiker, jetzt bei einem DAX-Unternehmen",
+      "photo": null,
+      "placement": "wirkung",
+      "order": 6
+    },
+    {
+      "quote": "Die Community gibt mir Kraft. Endlich Menschen, die verstehen, was es heißt, als Erste in der Familie zu studieren.",
+      "name": "Lisa S.",
+      "role": "Masterstudentin der Psychologie",
+      "photo": null,
+      "placement": "wirkung",
+      "order": 7
+    }
+  ],
+  "impact-metrics": [
+    {
+      "page": "home",
+      "slug": "stipendien",
+      "label": "",
+      "value": 150,
+      "prefix": "",
+      "suffix": "",
+      "decimals": 0,
+      "icon": "",
+      "order": 0
+    },
+    {
+      "page": "home",
+      "slug": "mitglieder",
+      "label": "",
+      "value": 600,
+      "prefix": "",
+      "suffix": "",
+      "decimals": 0,
+      "icon": "",
+      "order": 1
+    },
+    {
+      "page": "home",
+      "slug": "praktika",
+      "label": "",
+      "value": 200,
+      "prefix": "",
+      "suffix": "",
+      "decimals": 0,
+      "icon": "",
+      "order": 2
+    },
+    {
+      "page": "home",
+      "slug": "unis",
+      "label": "",
+      "value": 25,
+      "prefix": "",
+      "suffix": "",
+      "decimals": 0,
+      "icon": "",
+      "order": 3
+    },
+    {
+      "page": "home",
+      "slug": "schulen",
+      "label": "",
+      "value": 50,
+      "prefix": "",
+      "suffix": "",
+      "decimals": 0,
+      "icon": "",
+      "order": 4
+    },
+    {
+      "page": "home",
+      "slug": "matches",
+      "label": "",
+      "value": 1000,
+      "prefix": "",
+      "suffix": "",
+      "decimals": 0,
+      "icon": "",
+      "order": 5
+    },
+    {
+      "page": "home",
+      "slug": "bachelor",
+      "label": "",
+      "value": 50,
+      "prefix": "",
+      "suffix": "",
+      "decimals": 0,
+      "icon": "",
+      "order": 6
+    },
+    {
+      "page": "home",
+      "slug": "foerdermittel",
+      "label": "",
+      "value": 20,
+      "prefix": "",
+      "suffix": "",
+      "decimals": 0,
+      "icon": "",
+      "order": 7
+    },
+    {
+      "page": "home",
+      "slug": "stellen",
+      "label": "",
+      "value": 140,
+      "prefix": "",
+      "suffix": "",
+      "decimals": 0,
+      "icon": "",
+      "order": 8
+    },
+    {
+      "page": "home",
+      "slug": "rating",
+      "label": "",
+      "value": 8.9,
+      "prefix": "",
+      "suffix": "",
+      "decimals": 1,
+      "icon": "",
+      "order": 9
+    },
+    {
+      "page": "impact",
+      "slug": "stipendien",
+      "label": "Stipendien vermittelt",
+      "value": 150,
+      "prefix": "",
+      "suffix": "+",
+      "decimals": 0,
+      "icon": "GraduationCap",
+      "order": 0
+    },
+    {
+      "page": "impact",
+      "slug": "members",
+      "label": "Aktive Mitglieder",
+      "value": 600,
+      "prefix": "",
+      "suffix": "+",
+      "decimals": 0,
+      "icon": "Users",
+      "order": 1
+    },
+    {
+      "page": "impact",
+      "slug": "praktika",
+      "label": "Praktika vermittelt",
+      "value": 200,
+      "prefix": "",
+      "suffix": "+",
+      "decimals": 0,
+      "icon": "Briefcase",
+      "order": 2
+    },
+    {
+      "page": "impact",
+      "slug": "unis",
+      "label": "Partner-Universitäten",
+      "value": 25,
+      "prefix": "",
+      "suffix": "+",
+      "decimals": 0,
+      "icon": "School",
+      "order": 3
+    },
+    {
+      "page": "impact",
+      "slug": "schulen",
+      "label": "Partnerschulen",
+      "value": 50,
+      "prefix": "",
+      "suffix": "+",
+      "decimals": 0,
+      "icon": "Award",
+      "order": 4
+    },
+    {
+      "page": "impact",
+      "slug": "mentoring",
+      "label": "Mentoring-Gespräche",
+      "value": 500,
+      "prefix": "",
+      "suffix": "+",
+      "decimals": 0,
+      "icon": "BarChart3",
+      "order": 5
+    },
+    {
+      "page": "wirkung",
+      "slug": "matches",
+      "label": "Matches im Rahmen des Mentorings",
+      "value": 1000,
+      "prefix": "+",
+      "suffix": "",
+      "decimals": 0,
+      "icon": "",
+      "order": 6
+    },
+    {
+      "page": "wirkung",
+      "slug": "bachelor",
+      "label": "Zusagen für Bachelor- und Masterstudiengänge",
+      "value": 50,
+      "prefix": "+",
+      "suffix": "",
+      "decimals": 0,
+      "icon": "",
+      "order": 7
+    },
+    {
+      "page": "wirkung",
+      "slug": "foerdermittel",
+      "label": "Monatliche Zahlungen durch BAFÖG & Stipendien",
+      "value": 20,
+      "prefix": "+€",
+      "suffix": "k",
+      "decimals": 0,
+      "icon": "",
+      "order": 8
+    },
+    {
+      "page": "wirkung",
+      "slug": "stellen",
+      "label": "Zusagen für Praktika und Vollzeitstellen",
+      "value": 140,
+      "prefix": "+",
+      "suffix": "",
+      "decimals": 0,
+      "icon": "",
+      "order": 9
+    },
+    {
+      "page": "wirkung",
+      "slug": "rating",
+      "label": "Weiterempfehlung in der Community",
+      "value": 8.9,
+      "prefix": "",
+      "suffix": " / 10.0",
+      "decimals": 1,
+      "icon": "",
+      "order": 10
+    }
+  ],
+  "social-channels": [
+    {
+      "name": "YouTube",
+      "iconType": "youtube",
+      "href": "https://www.youtube.com/@Legmon.Official",
+      "order": 0
+    },
+    {
+      "name": "Instagram",
+      "iconType": "instagram",
+      "href": "https://www.instagram.com/legmon.official",
+      "order": 1
+    },
+    {
+      "name": "TikTok",
+      "iconType": "tiktok",
+      "href": "https://www.tiktok.com/@legmon.official",
+      "order": 2
+    },
+    {
+      "name": "Spotify",
+      "iconType": "spotify",
+      "href": "https://open.spotify.com/show/4QAQMoBPrHt5PecTmM86B9",
+      "order": 3
+    },
+    {
+      "name": "LinkedIn",
+      "iconType": "linkedin",
+      "href": "https://www.linkedin.com/company/legmon/",
+      "order": 4
+    },
+    {
+      "name": "Discord",
+      "iconType": "discord",
+      "href": "https://discord.com/invite/36CfGUVY2m",
+      "order": 5
+    }
+  ],
+  "blog-categories": [
+    {
+      "name": "Community",
+      "order": 0
+    },
+    {
+      "name": "Mentoring",
+      "order": 1
+    },
+    {
+      "name": "Bildung",
+      "order": 2
+    },
+    {
+      "name": "Events",
+      "order": 3
+    },
+    {
+      "name": "Partnerschaft",
+      "order": 4
+    }
+  ],
+  "blog-posts": [
+    {
+      "date": "März 2026",
+      "category": "Community",
+      "title": "Wie 700 junge Menschen ihren Weg finden",
+      "description": "Ein Blick hinter die Kulissen: Was macht die Legmon-Community aus und warum verändert sie Leben.",
+      "body": null,
+      "coverImage": null,
+      "readTime": "5 Min. Lesezeit",
+      "link": "",
+      "order": 0
+    },
+    {
+      "date": "Februar 2026",
+      "category": "Mentoring",
+      "title": "Vom Arbeiterkind zum Berufseinstieg – Bens Geschichte",
+      "description": "Ben erzählt, wie ein Legmon-Mentor ihm half, den richtigen Weg nach dem Abitur zu finden.",
+      "body": null,
+      "coverImage": null,
+      "readTime": "7 Min. Lesezeit",
+      "link": "",
+      "order": 1
+    },
+    {
+      "date": "Februar 2026",
+      "category": "Bildung",
+      "title": "5 Stipendien, die kaum jemand kennt",
+      "description": "Versteckte Fördermöglichkeiten für Erstakademiker:innen und Schüler:innen mit Migrationshintergrund.",
+      "body": null,
+      "coverImage": null,
+      "readTime": "4 Min. Lesezeit",
+      "link": "",
+      "order": 2
+    },
+    {
+      "date": "Januar 2026",
+      "category": "Events",
+      "title": "Rückblick: Community Summit 2025",
+      "description": "Über 200 Teilnehmer:innen, 15 Workshops und unzählige neue Verbindungen – das war unser größtes Event.",
+      "body": null,
+      "coverImage": null,
+      "readTime": "6 Min. Lesezeit",
+      "link": "",
+      "order": 3
+    },
+    {
+      "date": "Januar 2026",
+      "category": "Partnerschaft",
+      "title": "Warum Unternehmen auf Legmon setzen",
+      "description": "Drei Unternehmenspartner erklären, warum die Kooperation mit Legmon auch für sie wertvoll ist.",
+      "body": null,
+      "coverImage": null,
+      "readTime": "5 Min. Lesezeit",
+      "link": "",
+      "order": 4
+    },
+    {
+      "date": "Dezember 2025",
+      "category": "Community",
+      "title": "Local Hubs: Legmon in Deiner Stadt",
+      "description": "Wie unsere Community vor Ort funktioniert – und was es bedeutet, ein Hub Coordinator zu sein.",
+      "body": null,
+      "coverImage": null,
+      "readTime": "4 Min. Lesezeit",
+      "link": "",
+      "order": 5
+    }
+  ],
+  "faq-topics": [
+    {
+      "title": "Über Legmon",
+      "subtitle": null,
+      "items": [
+        {
+          "question": "Was ist Legmon?",
+          "answer": "Legmon ist eine gemeinnützige Community, die junge Menschen aus weniger privilegierten Verhältnissen beim Übergang in Studium, Ausbildung und Beruf begleitet. Wir verbinden Mentoring, Community, Events und Partnerschaften – mit dem klaren Ziel, soziale Mobilität zu bewirken. Talent ist gleichverteilt, Chancen nicht. Das wollen wir ändern."
+        },
+        {
+          "question": "An wen richtet sich Legmon?",
+          "answer": "Unser Angebot richtet sich insbesondere an junge Menschen, die aus weniger privilegierten Verhältnissen kommen oder auf ihrem Weg weniger Zugang zu Orientierung, Vorbildern und Netzwerken haben. Dazu zählen zum Beispiel Erstakademiker:innen, junge Menschen mit Migrationsgeschichte, Menschen mit eingeschränkten finanziellen Mitteln, mit Beeinträchtigung oder Erfahrungen sozialer Ausgrenzung. Wenn Du Dich darin wiedererkennst, bist Du bei uns richtig."
+        },
+        {
+          "question": "Wer steht hinter Legmon?",
+          "answer": "Legmon ist ein gemeinnütziger eingetragener Verein (e.V.). Hinter der Initiative steht ein ehrenamtlich engagiertes Team aus Schüler:innen, Studierenden, Auszubildenden und Berufstätigen."
+        },
+        {
+          "question": "Wie finanziert sich Legmon?",
+          "answer": "Wir finanzieren uns über Förderungen von Stiftungen, Partnerschaften mit Unternehmen sowie Spenden von Privatpersonen. Diese Mischung macht uns unabhängig und sorgt dafür, dass unsere Angebote für die Community kostenfrei bleiben."
+        },
+        {
+          "question": "Liegen Schutzkonzepte vor?",
+          "answer": "Ja. Der Schutz der jungen Menschen in unserer Community hat für uns hohe Priorität. Wir arbeiten nach einem Schutzkonzept mit klaren Verhaltensregeln und Prozessen sowie festen Ansprechpersonen für Sorgen oder Beschwerden. So schaffen wir einen sicheren Rahmen für Austausch auf Augenhöhe."
+        }
+      ],
+      "order": 0
+    },
+    {
+      "title": "Mitglied werden",
+      "subtitle": null,
+      "items": [
+        {
+          "question": "Wo ist Legmon aktiv? Muss ich an einem bestimmten Ort wohnen?",
+          "answer": "Wir organisieren Lokalgruppen und Veranstaltungen in ganz Deutschland. Ein Großteil unserer Angebote ist zudem online/remote nutzbar, sodass Du unabhängig von Deinem Wohnort mitmachen kannst."
+        },
+        {
+          "question": "Wie werde ich Teil der Community?",
+          "answer": "Über eine kurze, kostenfreie Bewerbung auf unserer Website kannst Du Teil der Community werden. Danach lernen wir Dich und Dein Anliegen in einem ersten Gespräch kennen, erklären Dir alles und Du erhältst Zugriff auf unsere Angebote."
+        },
+        {
+          "question": "Kostet die Teilnahme bei Legmon etwas?",
+          "answer": "Nein. Unsere Angebote sind für die Community kostenfrei. Geld sollte nie darüber entscheiden, wer Zugang zu Orientierung, Vorbildern und Netzwerken bekommt. Genau diese Ungleichheit wollen wir abbauen."
+        },
+        {
+          "question": "Gibt es Voraussetzungen, um mitzumachen?",
+          "answer": "Du brauchst keine bestimmten Noten, Abschlüsse oder Vorerfahrungen. Wichtig ist uns Deine Motivation, den nächsten Schritt zu gehen. Den Rest gehen wir gemeinsam an."
+        },
+        {
+          "question": "Welche Pflichten gehe ich als Mentee ein?",
+          "answer": "Du gehst bei Legmon keine starren Verpflichtungen ein. Jedoch erwarten wir von Dir angemessenes Verhalten gemäß unserer Community-Vereinbarung, was zum Beispiel die Verlässlichkeit bei Terminen und den respektvollen Umgang mit anderen Mitgliedern umfasst. Zudem verschicken wir zweimal jährlich eine kurze Umfrage, um Feedback zu erhalten und zu erfahren, wie Dir Legmon geholfen hat – durch das Ausfüllen sehen wir, dass Du nach wie vor Lust hast, Teil der Community zu sein."
+        },
+        {
+          "question": "Muss ich sofort genau wissen, was ich brauche?",
+          "answer": "Nein. Viele kommen mit offenen Fragen zu uns oder schauen sich erstmal alleine um, weil sie noch kein konkretes Bedürfnis haben. Gerade dafür ist Legmon da: um Orientierung zu geben, Perspektiven aufzuzeigen und passende Kontakte herzustellen."
+        },
+        {
+          "question": "Was passiert mit meinen Daten?",
+          "answer": "Wir gehen sorgsam mit Deinen Daten um und geben sie nicht ohne Deine Zustimmung an Dritte weiter. Wir verarbeiten nur das, was für Deine Teilnahme nötig ist und folgen hierbei gesetzlichen Bestimmungen. Alle Details findest Du in unserer Datenschutzerklärung."
+        }
+      ],
+      "order": 1
+    },
+    {
+      "title": "Engagement",
+      "subtitle": null,
+      "items": [
+        {
+          "question": "Wie kann ich Legmon unterstützen, ohne zu spenden?",
+          "answer": "Auch ohne Spende kannst Du viel bewirken: als Türöffner zu Unternehmen oder Initiativen, durch das Teilen unserer Angebote in Deinem Netzwerk oder durch ehrenamtliches Engagement."
+        },
+        {
+          "question": "Wie kann ich mich ehrenamtlich engagieren?",
+          "answer": "Auf unserer Engagement-Seite findest Du eine Auswahl möglicher Engagement-Rollen. Dazu gehören zum Beispiel Aufgaben in unserem Core-Team, der Einsatz als Mentor:in oder auch das Öffnen von Türen zu spannenden Kontakten und natürlich die finanzielle Unterstützung durch Spenden."
+        },
+        {
+          "question": "Wie viel Zeit kostet mich ein Engagement?",
+          "answer": "Als Core-Team-Mitglied planst Du idealerweise rund fünf Stunden pro Woche ein – als Mentor:in weniger. Wichtiger als die genaue Stundenzahl ist uns aber, dass Du verlässlich bist und Motivation für unsere spannenden Aufgaben mitbringst. Was konkret zu Deinem Alltag und Deiner Rolle passt, stimmen wir gemeinsam mit Dir ab – wir sind flexibel."
+        },
+        {
+          "question": "Welche Pflichten gehe ich als Ehrenamtliche:r ein?",
+          "answer": "Als Ehrenamtliche:r solltest Du verlässlich für Dein Team oder Deine Mentees da sein und Dich an unsere Verhaltensregeln, konkret die Community-Vereinbarung, halten. Die Rahmenbedingungen und unseren Arbeitsmodus besprechen wir vorab gemeinsam, damit das Engagement gut in Deinen Alltag passt."
+        }
+      ],
+      "order": 2
+    },
+    {
+      "title": "Partnerschaften",
+      "subtitle": null,
+      "items": [
+        {
+          "question": "Können Schulen, Universitäten oder Unternehmen mit Legmon zusammenarbeiten?",
+          "answer": "Ja. Wir entwickeln Partnerschaften mit Schulen, Hochschulen und Unternehmen, die unsere Mission unterstützen und gemeinsam mit uns Angebote, Veranstaltungen oder Zugänge für junge, ambitionierte Menschen schaffen wollen."
+        },
+        {
+          "question": "Wie initiiere ich eine Partnerschaft mit Legmon?",
+          "answer": "Der beste Einstieg ist eine Kontaktaufnahme über unsere jeweiligen Partnerseiten oder direkt über das Kontaktformular. Danach klären wir Ziele, Möglichkeiten und das passende Format."
+        },
+        {
+          "question": "Wofür werden Spenden eingesetzt?",
+          "answer": "Spenden fließen in die strukturelle Weiterentwicklung von Legmon. Dazu gehören unter anderem die Gewinnung neuer Mitglieder, der Ausbau unserer Programme und Angebote (z. B. Mentoring und Veranstaltungen) sowie die dafür notwendige Infrastruktur im Hintergrund. Unser Ziel ist es, möglichst viel direkte Wirkung für unsere Zielgruppe zu schaffen."
+        },
+        {
+          "question": "Ist eine Spende steuerlich absetzbar?",
+          "answer": "Ja, eine Spende ist steuerlich absetzbar, sofern die jeweiligen formalen Voraussetzungen erfüllt sind. Wir informieren Dich im Spendenprozess darüber, wie Du eine Spendenquittung erhältst."
+        },
+        {
+          "question": "Wie transparent geht Legmon mit Spenden und Mitteln um?",
+          "answer": "Transparenz ist uns wichtig. Als gemeinnütziger Verein legen wir offen, wofür wir Mittel einsetzen, und berichten regelmäßig über unsere Wirkung. So kannst Du nachvollziehen, was Deine Unterstützung bewirkt."
+        }
+      ],
+      "order": 3
+    }
+  ],
+  "success-stories": [
+    {
+      "name": "Maria K.",
+      "title": "Vom Arbeiterkind zur Stipendiatin",
+      "description": "Maria wuchs als Arbeiterkind auf und wusste nicht, wie sie ihr Studium finanzieren sollte. Durch unser Mentoring-Programm fand sie den Mut, sich für ein Stipendium zu bewerben. Heute studiert sie erfolgreich an ihrer Traumuni.",
+      "type": "text",
+      "photo": null,
+      "videoUrl": "",
+      "order": 0
+    },
+    {
+      "name": "Ahmed T.",
+      "title": "Karrierewechsel erfolgreich gemeistert",
+      "description": "Ahmed wechselte von der Ausbildung ins Studium und fand durch unser Netzwerk seinen Traumjob bei einem Tech-Startup. Er ist heute selbst Mentor und hilft anderen bei der Karriereplanung.",
+      "type": "video",
+      "photo": null,
+      "videoUrl": "",
+      "order": 1
+    },
+    {
+      "name": "Lisa S.",
+      "title": "Erste Generation an der Uni",
+      "description": "Als erste in ihrer Familie studiert Lisa jetzt Jura und möchte später anderen helfen. Durch Legmon hat sie gelernt, dass ihre Herkunft kein Hindernis sein muss.",
+      "type": "video",
+      "photo": null,
+      "videoUrl": "",
+      "order": 2
+    },
+    {
+      "name": "Thomas W.",
+      "title": "Von der Unsicherheit zur Klarheit",
+      "description": "Thomas wusste nicht, welches Studium zu ihm passt. Durch Mentoring-Gespräche mit verschiedenen Mentor:innen fand er seinen Weg in die Informatik.",
+      "type": "text",
+      "photo": null,
+      "videoUrl": "",
+      "order": 3
+    },
+    {
+      "name": "Sophie M.",
+      "title": "Netzwerk öffnet Türen",
+      "description": "Sophie nutzte unser Netzwerk, um Kontakte zu knüpfen und fand durch einen Unternehmensbesuch ihr Traumpraktikum. Heute arbeitet sie dort als Werkstudentin.",
+      "type": "text",
+      "photo": null,
+      "videoUrl": "",
+      "order": 4
+    },
+    {
+      "name": "David R.",
+      "title": "Von der Bewerbung zum Job",
+      "description": "David hatte Probleme mit seinen Bewerbungen. Durch unsere Workshops und individuelles Mentoring konnte er seine Bewerbungsstrategie verbessern und bekam mehrere Zusagen.",
+      "type": "video",
+      "photo": null,
+      "videoUrl": "",
+      "order": 5
+    }
+  ],
+  "member-stories": [
+    {
+      "name": "Ben",
+      "title": "Bens Weg zur Ausbildung",
+      "description": "Ben ist 19 Jahre alt und kam zu Legmon, als er nicht wusste, welchen Ausbildungsweg er einschlagen soll. Hilfreiche Austausche und das Matching mit einem Mentor haben ihm dabei geholfen, den für ihn passenden Weg zu finden.",
+      "order": 0
+    },
+    {
+      "name": "Maria",
+      "title": "Marias Suche nach einem Praktikum",
+      "description": "Maria suchte nach einem Praktikum im Bereich Marketing. Mit Hilfe ihrer Mentorin hat sie ihren Lebenslauf optimiert und erfolgreich ein Praktikum bei einem Berliner Startup gefunden.",
+      "order": 1
+    },
+    {
+      "name": "Mehmet",
+      "title": "Mehmets Bewerbung um ein Stipendium",
+      "description": "Mehmet wollte sich für ein Stipendium bewerben, wusste aber nicht, wie er anfangen soll. Sein Mentor – selbst Stipendiat – hat ihn durch den gesamten Prozess begleitet.",
+      "order": 2
+    },
+    {
+      "name": "Peter",
+      "title": "Peters Weg an die Universität",
+      "description": "Peter war der Erste in seiner Familie, der studieren wollte. Durch die Legmon Community fand er Orientierung und Unterstützung auf dem Weg zum Studium.",
+      "order": 3
+    }
+  ],
+  "mentors": [
+    {
+      "name": "Dr. Sarah Müller",
+      "title": "Senior Consultant bei McKinsey",
+      "description": "Expertin für Karriereentwicklung und Bewerbungsstrategien",
+      "topics": [
+        "Karriere",
+        "Bewerbung",
+        "Networking"
+      ],
+      "featured": false,
+      "order": 0
+    },
+    {
+      "name": "Prof. Michael Schmidt",
+      "title": "Professor für Informatik, TU München",
+      "description": "Unterstützt bei Studienwahl und Forschungskarriere",
+      "topics": [
+        "Studienwahl",
+        "Forschung",
+        "Unternehmertum"
+      ],
+      "featured": false,
+      "order": 1
+    },
+    {
+      "name": "Lisa Chen",
+      "title": "Gründerin & CEO, Tech Startup",
+      "description": "Erfahrung in Startup-Gründung und Business Development",
+      "topics": [
+        "Unternehmertum",
+        "Networking",
+        "Soft Skills"
+      ],
+      "featured": false,
+      "order": 2
+    },
+    {
+      "name": "Thomas Weber",
+      "title": "Investment Banker, Deutsche Bank",
+      "description": "Spezialist für Finanzierung und Karriere in der Finanzbranche",
+      "topics": [
+        "Finanzierung",
+        "Karriere",
+        "Bewerbung"
+      ],
+      "featured": false,
+      "order": 3
+    },
+    {
+      "name": "Dr. med. Amira Hassan",
+      "title": "Ärztin in Weiterbildung, Charité Berlin",
+      "description": "Begleitet Medizinstudierende durch das Studium und den Einstieg in die klinische Laufbahn",
+      "topics": [
+        "Studienwahl",
+        "Karriere",
+        "Soft Skills"
+      ],
+      "featured": false,
+      "order": 4
+    },
+    {
+      "name": "Jonas Brandt",
+      "title": "Rechtsanwalt, Freshfields Bruckhaus Deringer",
+      "description": "Gibt Einblicke in die Welt der Großkanzleien und hilft beim Berufseinstieg im Recht",
+      "topics": [
+        "Studienwahl",
+        "Karriere",
+        "Bewerbung"
+      ],
+      "featured": false,
+      "order": 5
+    },
+    {
+      "name": "Chiara Rossi",
+      "title": "UX Designerin, Zalando",
+      "description": "Unterstützt kreative Köpfe beim Einstieg in die Design- und Produktbranche",
+      "topics": [
+        "Karriere",
+        "Soft Skills",
+        "Networking"
+      ],
+      "featured": false,
+      "order": 6
+    },
+    {
+      "name": "Kwame Asante",
+      "title": "Nachhaltigkeitsmanager, BASF",
+      "description": "Teilt seine Erfahrungen aus der Nachhaltigkeits- und Umweltbranche und zeigt Karrierewege im Green Sector auf",
+      "topics": [
+        "Karriere",
+        "Studienwahl",
+        "Unternehmertum"
+      ],
+      "featured": false,
+      "order": 7
+    },
+    {
+      "name": "Sophie Kaufmann",
+      "title": "Grundschullehrerin & Bildungsaktivistin",
+      "description": "Begeisterte Pädagogin mit Fokus auf inklusive Bildung und soziales Engagement im Lehramt",
+      "topics": [
+        "Studienwahl",
+        "Soft Skills",
+        "Karriere"
+      ],
+      "featured": false,
+      "order": 8
+    },
+    {
+      "name": "Malik Özdemir",
+      "title": "Journalist, ARD/funk",
+      "description": "Erklärt den Weg in den Journalismus und öffentlich-rechtliche Medien – von der ersten Bewerbung bis zum Volontariat",
+      "topics": [
+        "Karriere",
+        "Bewerbung",
+        "Networking"
+      ],
+      "featured": false,
+      "order": 9
+    }
+  ],
+  "mentoring-topics": [
+    {
+      "name": "Studienwahl",
+      "order": 0
+    },
+    {
+      "name": "Karriere",
+      "order": 1
+    },
+    {
+      "name": "Bewerbung",
+      "order": 2
+    },
+    {
+      "name": "Finanzierung",
+      "order": 3
+    },
+    {
+      "name": "Networking",
+      "order": 4
+    },
+    {
+      "name": "Soft Skills",
+      "order": 5
+    },
+    {
+      "name": "Unternehmertum",
+      "order": 6
+    },
+    {
+      "name": "Forschung",
+      "order": 7
+    }
+  ],
+  "mentoring-steps": [
+    {
+      "step": "1",
+      "title": "Bei Legmon anmelden",
+      "description": "Melde Dich bei Legmon an und erzähle uns von Deinen Wünschen und Herausforderungen",
+      "order": 0
+    },
+    {
+      "step": "2",
+      "title": "Anfrage stellen",
+      "description": "Über ein kurzes Formular kannst Du unbegrenzt oft Mentor:innen anfragen – wir helfen Dir mit dem passenden Match",
+      "order": 1
+    },
+    {
+      "step": "3",
+      "title": "Kontakt aufnehmen",
+      "description": "Innerhalb von wenigen Tagen teilen wir Dir Kontaktdaten mit und ihr könnt euch per WhatsApp oder Video-Call austauschen",
+      "order": 2
+    },
+    {
+      "step": "4",
+      "title": "Fortschritte machen",
+      "description": "Tausche Dich mit Deinen Mentor:innen kurz- oder langfristig aus und verfolge mit uns gemeinsam Deine Ziele  ",
+      "order": 3
+    }
+  ],
+  "experience-topics": [
+    {
+      "name": "Ausbildung",
+      "order": 0
+    },
+    {
+      "name": "Studiengang",
+      "order": 1
+    },
+    {
+      "name": "Universität",
+      "order": 2
+    },
+    {
+      "name": "Unternehmen",
+      "order": 3
+    },
+    {
+      "name": "Stipendium",
+      "order": 4
+    },
+    {
+      "name": "Challenges",
+      "order": 5
+    },
+    {
+      "name": "Nationalitäten",
+      "order": 6
+    }
+  ],
+  "mentoring-experiences": [
+    {
+      "topic": "Ausbildung",
+      "title": "Der Weg in die Ausbildung",
+      "name": "",
+      "role": "Member, Auszubildender",
+      "quote": "Der Austausch mit anderen hat mir geholfen, endlich eine klare Richtung für meine Ausbildung zu finden.",
+      "order": 0
+    },
+    {
+      "topic": "Studiengang",
+      "title": "Welcher Studiengang passt zu mir?",
+      "name": "",
+      "role": "Member, Erstakademikerin",
+      "quote": "Erfahrungsberichte haben mir gezeigt, wie unterschiedlich Studiengänge wirklich sind.",
+      "order": 1
+    },
+    {
+      "topic": "Universität",
+      "title": "Ankommen an der Uni",
+      "name": "",
+      "role": "Member, Erstsemester",
+      "quote": "Ehrliche Einblicke von anderen haben mir den Start an der Uni deutlich leichter gemacht.",
+      "order": 2
+    },
+    {
+      "topic": "Unternehmen",
+      "title": "Erster Einblick in Unternehmen",
+      "name": "",
+      "role": "Member, Praktikantin",
+      "quote": "Ich habe besser verstanden, wie sich Unternehmenskulturen unterscheiden und worauf man achten sollte.",
+      "order": 3
+    },
+    {
+      "topic": "Stipendium",
+      "title": "Stipendien greifbar machen",
+      "name": "",
+      "role": "Member, Stipendiat",
+      "quote": "Durch Erfahrungen anderer wurde das Thema Stipendium für mich plötzlich konkret und machbar.",
+      "order": 4
+    },
+    {
+      "topic": "Challenges",
+      "title": "Mit Hürden umgehen",
+      "name": "",
+      "role": "Member, Masterstudentin",
+      "quote": "Geschichten von Menschen mit ähnlichen Hürden haben mir besonders viel Mut gemacht.",
+      "order": 5
+    },
+    {
+      "topic": "Nationalitäten",
+      "title": "Verschiedene Perspektiven, ähnliche Fragen",
+      "name": "",
+      "role": "Member, internationale Perspektive",
+      "quote": "Unterschiedliche Hintergründe, aber oft erstaunlich ähnliche Fragen und Herausforderungen.",
+      "order": 6
+    }
+  ],
+  "timeline-milestones": [
+    {
+      "year": "Vor 2022",
+      "title": "Die Idee entsteht",
+      "description": "Legmon entsteht aus der Überzeugung, dass Bildungsgerechtigkeit von der Gemeinschaft ausgehen muss – nicht nur von Institutionen.",
+      "order": 0
+    },
+    {
+      "year": "2022",
+      "title": "Gründung & Aufbau",
+      "description": "Offizieller Start von Legmon als gemeinnütziger Verein. Erste Community-Member, erste Mentor:innen, erste Matches.",
+      "order": 1
+    },
+    {
+      "year": "2023",
+      "title": "Wachstum",
+      "description": "Die Community wächst auf über 300 Member. Erste Partnerschaften mit Schulen und Unternehmen entstehen.",
+      "order": 2
+    },
+    {
+      "year": "2024",
+      "title": "Skalierung",
+      "description": "Über 500 Member, 100+ Mentor:innen, erste Stipendien-Vermittlungen und Events in mehreren Städten.",
+      "order": 3
+    },
+    {
+      "year": "2025",
+      "title": "Bundesweite Präsenz",
+      "description": "700+ Community Member, Local Hubs in 10+ Städten, Kooperationen mit über 25 Universitäten und 50 Partnerschulen.",
+      "order": 4
+    },
+    {
+      "year": "2026",
+      "title": "Heute",
+      "description": "Legmon wächst weiter: Mehr Mentor:innen, mehr Events, mehr Wirkung – für alle, die ihren Weg gehen wollen.",
+      "order": 5
+    }
+  ],
+  "about-facts": [
+    {
+      "title": "Für wen ist Legmon?",
+      "text": "Legmon richtet sich an junge Menschen, die beim Übergang von der Schule in Ausbildung, Studium oder Beruf Unterstützung suchen – insbesondere solche, die weniger auf etablierte Netzwerke zugreifen können. Das schließt Arbeiterkinder, Erstakademiker:innen und Menschen mit Migrationsgeschichte ein.",
+      "order": 0
+    },
+    {
+      "title": "Was macht Legmon?",
+      "text": "Legmon bietet kostenfreies Mentoring, Community-Events, Stipendienberatung und Netzwerkzugänge. Alles ehrenamtlich organisiert, alles ohne Gebühren für die Mitglieder.",
+      "order": 1
+    },
+    {
+      "title": "Wie finanziert sich Legmon?",
+      "text": "Als gemeinnütziger Verein finanziert sich Legmon durch Spenden, Unternehmenspartnerschaften und Förderprogramme. Es gibt keine Mitgliedsbeiträge.",
+      "order": 2
+    },
+    {
+      "title": "Wie groß ist Legmon?",
+      "text": "Über 700 Community Member, 150+ ehrenamtliche Mentor:innen, Local Hubs in 10+ deutschen Städten sowie in Wien, Zürich und London.",
+      "order": 3
+    }
+  ],
+  "community-values": [
+    {
+      "icon": "Handshake",
+      "title": "Wir sind alle gleich",
+      "text": "Egal Überflieger oder Schulabbrecher, Azubi oder Studi: Wir sind alle gleich, definieren uns nicht über unsere Erfahrungen und schaffen gemeinsam eine tolle Atmosphäre.",
+      "order": 0
+    },
+    {
+      "icon": "Globe",
+      "title": "Wir feiern Vielfalt",
+      "text": "Wir haben die unterschiedlichsten Hintergründe: Ob Nationalität, Religion, politische Einstellungen oder Prioritäten im Leben: Wir nehmen Rücksicht und gehen respektvoll miteinander um.",
+      "order": 1
+    },
+    {
+      "icon": "Heart",
+      "title": "Wir halten zusammen",
+      "text": "Legmon ist keine Community zum Ausnutzen: Wir sind dankbar für die Unterstützung, helfen uns gegenseitig und geben nach Möglichkeit zurück, sei es durch Engagement oder Weiterempfehlung.",
+      "order": 2
+    }
+  ],
+  "member-previews": [
+    {
+      "name": "Maria",
+      "role": "Studentin",
+      "quote": "Die Community gibt mir Kraft.",
+      "type": "video",
+      "media": null,
+      "order": 0
+    },
+    {
+      "name": "Ahmed",
+      "role": "Software Engineer",
+      "quote": "Von der Ausbildung zum Traumjob.",
+      "type": "photo",
+      "media": null,
+      "order": 1
+    },
+    {
+      "name": "Lisa",
+      "role": "Jura-Studentin",
+      "quote": "Als Erste an der Uni – dank Legmon.",
+      "type": "photo",
+      "media": null,
+      "order": 2
+    }
+  ],
+  "ambassador-benefits": [
+    {
+      "icon": "Users",
+      "title": "Exklusives Netzwerk",
+      "description": "Tritt einem exklusiven Netzwerk von engagierten Creators und Influencern bei.",
+      "order": 0
+    },
+    {
+      "icon": "Heart",
+      "title": "Sinnvolle Wirkung",
+      "description": "Nutze deine Reichweite für eine wichtige gesellschaftliche Mission.",
+      "order": 1
+    },
+    {
+      "icon": "Video",
+      "title": "Content-Support",
+      "description": "Erhalte Unterstützung bei der Erstellung von Content und Storytelling.",
+      "order": 2
+    }
+  ],
+  "ambassador-steps": [
+    {
+      "step": "1",
+      "title": "Bewerbung",
+      "description": "Bewirb dich als Creator oder Influencer mit einer gewissen Reichweite.",
+      "order": 0
+    },
+    {
+      "step": "2",
+      "title": "Auswahl",
+      "description": "Unser Team prüft deine Bewerbung und wählt passende Ambassadors aus.",
+      "order": 1
+    },
+    {
+      "step": "3",
+      "title": "Onboarding",
+      "description": "Erhalte alle Informationen und Materialien, die du für deine Arbeit brauchst.",
+      "order": 2
+    },
+    {
+      "step": "4",
+      "title": "Content & Impact",
+      "description": "Erstelle Content über Legmon und hilf uns, mehr Menschen zu erreichen.",
+      "order": 3
+    }
+  ],
+  "ambassador-requirements": [
+    {
+      "requirement": "Authentisches Interesse an Bildungsgerechtigkeit",
+      "order": 0
+    },
+    {
+      "requirement": "Regelmäßige Content-Erstellung (mindestens 1x pro Monat)",
+      "order": 1
+    },
+    {
+      "requirement": "Engagement in Social Media oder anderen Plattformen",
+      "order": 2
+    },
+    {
+      "requirement": "Bereitschaft, unsere Mission zu teilen",
+      "order": 3
+    },
+    {
+      "requirement": "Langfristiges Engagement (mindestens 6 Monate)",
+      "order": 4
+    }
+  ],
+  "registration-types": [
+    {
+      "slug": "mentee",
+      "label": "Als Mentee bewerben",
+      "icon": "GraduationCap",
+      "description": "Erhalte Unterstützung von erfahrenen Mentor:innen",
+      "order": 0
+    },
+    {
+      "slug": "mentor",
+      "label": "Als Mentor:in engagieren",
+      "icon": "Briefcase",
+      "description": "Teile deine Erfahrungen und unterstütze junge Talente",
+      "order": 1
+    },
+    {
+      "slug": "core-team",
+      "label": "Core Team beitreten",
+      "icon": "User",
+      "description": "Werde Teil unseres Kernteams",
+      "order": 2
+    },
+    {
+      "slug": "advisor",
+      "label": "Als Advisor unterstützen",
+      "icon": "Heart",
+      "description": "Bringe deine Expertise ein",
+      "order": 3
+    },
+    {
+      "slug": "creator",
+      "label": "Creator/Ambassador werden",
+      "icon": "User",
+      "description": "Nutze deine Reichweite für eine gute Sache",
+      "order": 4
+    }
+  ],
+  "signup-steps": [
+    {
+      "step": "1",
+      "title": "Anmeldung",
+      "description": "Du füllst das Formular aus und sendest es ab.",
+      "order": 0
+    },
+    {
+      "step": "2",
+      "title": "Review",
+      "description": "Unser Team prüft deine Anmeldung innerhalb von 1-2 Wochen.",
+      "order": 1
+    },
+    {
+      "step": "3",
+      "title": "Kontakt",
+      "description": "Wir melden uns bei dir per E-Mail für ein erstes Gespräch.",
+      "order": 2
+    },
+    {
+      "step": "4",
+      "title": "Onboarding",
+      "description": "Du wirst in die Community aufgenommen und kannst starten.",
+      "order": 3
+    }
+  ],
+  "partner-options": [
+    {
+      "icon": "Monitor",
+      "title": "Event (In-Person, Online)",
+      "subtitle": "Tour, Case Study, Q&A",
+      "description": "Bringen Sie Ihr Unternehmen direkt in die Community: Unternehmensbesuche, Webinare und Diskussionsrunden mit echten Talenten.",
+      "order": 0
+    },
+    {
+      "icon": "Share2",
+      "title": "Social Media",
+      "subtitle": "Video, Instagram, Website",
+      "description": "Authentische Präsenz bei Legmon: Wir stellen Ihr Unternehmen unserer Community auf unseren Kanälen vor.",
+      "order": 1
+    },
+    {
+      "icon": "HeartHandshake",
+      "title": "Ideelle Förderung",
+      "subtitle": "Mentoring Integration, Beratung",
+      "description": "Ihr Unternehmen wird Teil unseres Mentoring-Netzwerks – Mitarbeitende engagieren sich als Mentor:innen und geben ihr Wissen weiter.",
+      "order": 2
+    },
+    {
+      "icon": "Briefcase",
+      "title": "Job Posting",
+      "subtitle": "Teilen von Stellenanzeigen (je nach Partnerschaft erfolgsabhängig)",
+      "description": "Direkter Zugang zu qualifizierten Kandidat:innen aus unserer Community – diverse, motivierte Talente, die Ihren nächsten Schritt machen wollen.",
+      "order": 3
+    },
+    {
+      "icon": "BookOpen",
+      "title": "Workshop & Beratung",
+      "subtitle": "Speech, Stand, …",
+      "description": "Positionieren Sie sich als Karrierepartner: Workshops, Präsentationen oder Stand-Formate bei unseren Events.",
+      "order": 4
+    },
+    {
+      "icon": "Gift",
+      "title": "Spende, Förderung",
+      "subtitle": "Geld- oder Sachspende mit Spendenquittung",
+      "description": "Direkte Förderung unserer Mission mit steuerlicher Absetzbarkeit und transparentem Verwendungsnachweis.",
+      "order": 5
+    }
+  ],
+  "company-visits": [
+    {
+      "company": "McKinsey & Company",
+      "activity": "Case Study Workshop für Legmon Member",
+      "impact": "20 Bewerbungen bei McKinsey eingereicht",
+      "quote": "Die Qualität der Legmon-Talente hat uns wirklich beeindruckt.",
+      "hr": "A. Hoffmann, Recruiting Lead",
+      "logo": null,
+      "photo": null,
+      "order": 0
+    },
+    {
+      "company": "Deutsche Post DHL",
+      "activity": "Unternehmensbesuch in der Bonner Zentrale",
+      "impact": "12 Praktikumsplätze für Legmon Member",
+      "quote": "Legmon bringt uns genau die Zielgruppe, die wir für Diversity ansprechen wollen.",
+      "hr": "M. Wagner, HR Business Partner",
+      "logo": null,
+      "photo": null,
+      "order": 1
+    },
+    {
+      "company": "Telekom",
+      "activity": "Webinar: IT-Karrieren bei der Telekom",
+      "impact": "30 Teilnehmende, 5 Einstellungen",
+      "quote": "Die Zusammenarbeit war sehr professionell und effektiv.",
+      "hr": "S. Kim, Talent Acquisition",
+      "logo": null,
+      "photo": null,
+      "order": 2
+    },
+    {
+      "company": "Merck",
+      "activity": "Science & Innovation Day für Studierende",
+      "impact": "15 Praktikanten aus der Community",
+      "quote": "Genau das richtige Format, um diverse Talente zu erreichen.",
+      "hr": "Dr. L. Bauer, People & Culture",
+      "logo": null,
+      "photo": null,
+      "order": 3
+    }
+  ],
+  "logos": [
+    {
+      "name": "McKinsey",
+      "image": null,
+      "url": "",
+      "category": "partner",
+      "order": 0
+    },
+    {
+      "name": "Merck",
+      "image": null,
+      "url": "",
+      "category": "partner",
+      "order": 1
+    },
+    {
+      "name": "Deutsche Post",
+      "image": null,
+      "url": "",
+      "category": "partner",
+      "order": 2
+    },
+    {
+      "name": "Telekom",
+      "image": null,
+      "url": "",
+      "category": "partner",
+      "order": 3
+    },
+    {
+      "name": "Hochland Kaffee",
+      "image": null,
+      "url": "",
+      "category": "partner",
+      "order": 4
+    },
+    {
+      "name": "Commerz Business Consulting",
+      "image": null,
+      "url": "",
+      "category": "partner",
+      "order": 5
+    },
+    {
+      "name": "Mercedes-Benz Management Consulting",
+      "image": null,
+      "url": "",
+      "category": "partner",
+      "order": 6
+    },
+    {
+      "name": "HTGF",
+      "image": null,
+      "url": "",
+      "category": "partner",
+      "order": 7
+    },
+    {
+      "name": "Airbus",
+      "image": null,
+      "url": "",
+      "category": "partner",
+      "order": 8
+    },
+    {
+      "name": "HHL",
+      "image": null,
+      "url": "",
+      "category": "partner",
+      "order": 9
+    },
+    {
+      "name": "WHU",
+      "image": null,
+      "url": "",
+      "category": "partner",
+      "order": 10
+    },
+    {
+      "name": "FTI-Andersch",
+      "image": null,
+      "url": "",
+      "category": "partner",
+      "order": 11
+    },
+    {
+      "name": "Baker Tilly",
+      "image": null,
+      "url": "",
+      "category": "partner",
+      "order": 12
+    }
+  ],
+  "school-benefits": [
+    {
+      "icon": "Clock",
+      "title": "Wenig Aufwand",
+      "text": "Wir übernehmen die Unterrichtsstunde vollständig – Lehrkräfte müssen nur die Klasse bereitstellen.",
+      "order": 0
+    },
+    {
+      "icon": "BookOpen",
+      "title": "Pädagogisch wertvoll",
+      "text": "Unsere Formate haben wir bereits oft getestet und werden kontinuierlich weiterentwickelt.",
+      "order": 1
+    },
+    {
+      "icon": "Lightbulb",
+      "title": "Thematisch flexibel",
+      "text": "Wir können diverse Themen abdecken und auf die Bedürfnisse der Klasse anpassen.",
+      "order": 2
+    },
+    {
+      "icon": "Wrench",
+      "title": "Praxisnah",
+      "text": "Echte Erfahrungen aus der Arbeitswelt – von Menschen, die den Weg selbst gegangen sind.",
+      "order": 3
+    },
+    {
+      "icon": "FlaskConical",
+      "title": "Wissenschaftlich fundiert",
+      "text": "Unsere Konzepte basieren auf Erkenntnissen der Bildungsforschung und Best Practices.",
+      "order": 4
+    }
+  ],
+  "workshops": [
+    {
+      "title": "Studien- und Berufsorientierung",
+      "description": "Workshop zur Unterstützung bei der Studien- und Berufswahl für Oberstufenschüler:innen.",
+      "dauer": "2–3 Stunden",
+      "stufe": "Ab Klasse 10",
+      "order": 0
+    },
+    {
+      "title": "Bewerbungsstrategien",
+      "description": "Praktische Tipps für Bewerbungen, Motivationsschreiben und Vorstellungsgespräche.",
+      "dauer": "2 Stunden",
+      "stufe": "Ab Klasse 10",
+      "order": 1
+    },
+    {
+      "title": "Finanzierung des Studiums",
+      "description": "Informationen zu Stipendien, BAföG und anderen Finanzierungsmöglichkeiten.",
+      "dauer": "1,5 Stunden",
+      "stufe": "Ab Klasse 11",
+      "order": 2
+    },
+    {
+      "title": "Karrierewege im Überblick",
+      "description": "Einblick in verschiedene Berufsfelder und Karrierewege mit echten Erfahrungsberichten.",
+      "dauer": "2 Stunden",
+      "stufe": "Ab Klasse 9",
+      "order": 3
+    },
+    {
+      "title": "Soft Skills & Selbstpräsentation",
+      "description": "Training von Kommunikation, Selbstpräsentation und soziale Kompetenzen.",
+      "dauer": "2 Stunden",
+      "stufe": "Ab Klasse 8",
+      "order": 4
+    },
+    {
+      "title": "Ausbildung vs. Studium",
+      "description": "Vor- und Nachteile beider Wege – damit Schüler:innen eine fundierte Entscheidung treffen können.",
+      "dauer": "1,5 Stunden",
+      "stufe": "Ab Klasse 9",
+      "order": 5
+    }
+  ],
+  "school-visits": [
+    {
+      "school": "Gesamtschule Mitte Berlin",
+      "activity": "Workshop zur Studienwahl (Klasse 12)",
+      "quote": "Legmon hat unsere Schülerinnen und Schüler wirklich begeistert – ein Format, das echten Mehrwert liefert.",
+      "teacher": "S. Müller, Oberstufenkoordinatorin",
+      "logo": null,
+      "photo": null,
+      "order": 0
+    },
+    {
+      "school": "IGS Frankfurt-West",
+      "activity": "Berufsorientierungstag (Klassen 10–12)",
+      "quote": "Unsere SuS haben endlich mal Antworten auf Fragen bekommen, für die wir als Lehrkräfte keine Zeit haben.",
+      "teacher": "T. Becker, Klassenlehrer",
+      "logo": null,
+      "photo": null,
+      "order": 1
+    },
+    {
+      "school": "Sophie-Scholl-Gymnasium München",
+      "activity": "Stipendienworkshop (Klasse 11)",
+      "quote": "Nach dem Workshop haben sich gleich 5 Schüler:innen auf Stipendien beworben – das hätten wir alleine nicht geschafft.",
+      "teacher": "Dr. A. Wagner, Schulleitung",
+      "logo": null,
+      "photo": null,
+      "order": 2
+    },
+    {
+      "school": "Realschule Duisburg-Nord",
+      "activity": "Azubi-Austausch (Klasse 9)",
+      "quote": "Endlich mal eine externe Perspektive! Die Schüler:innen waren sehr motiviert.",
+      "teacher": "M. Schmidt, Berufswahlbeauftragter",
+      "logo": null,
+      "photo": null,
+      "order": 3
+    }
+  ],
+  "school-visit-steps": [
+    {
+      "num": 1,
+      "title": "Anfrage & Abstimmung",
+      "text": "Ihr füllt unser Kontaktformular aus und wir melden uns innerhalb von 3 Werktagen.",
+      "order": 0
+    },
+    {
+      "num": 2,
+      "title": "Konzept & Anpassung",
+      "text": "Wir besprechen gemeinsam das Thema, die Klasse und den Zeitrahmen – und passen das Format an.",
+      "order": 1
+    },
+    {
+      "num": 3,
+      "title": "Vorbereitung",
+      "text": "Wir bereiten alles vor, ihr müsst nichts tun außer die Klasse bereitstellen.",
+      "order": 2
+    },
+    {
+      "num": 4,
+      "title": "Durchführung",
+      "text": "Unser Team kommt in die Schule (oder online) und führt die Einheit durch.",
+      "order": 3
+    },
+    {
+      "num": 5,
+      "title": "Feedback & Nachbereitung",
+      "text": "Nach dem Besuch tauschen wir Feedback aus und klären eventuelle Follow-up-Schritte.",
+      "order": 4
+    }
+  ],
+  "engagement-highlights": [
+    {
+      "icon": "Sparkles",
+      "title": "Impact",
+      "text": "Geh einer erfüllenden Tätigkeit mit vielen Erfolgserlebnissen nach und hinterlasse Deine eigene Handschrift. Bei Legmon kann sich jede:r selbstverwirklichen und gleichzeitig etwas Gutes tun.",
+      "image": null,
+      "order": 0
+    },
+    {
+      "icon": "Smile",
+      "title": "Spaß",
+      "text": "Bring Dich in unsere diverse Community ein, schließe Freundschaften fürs Leben und arbeite an spannenden Aufgaben. Nicht zu vergessen natürlich die legendären Legmon Team-Events.",
+      "image": null,
+      "order": 1
+    },
+    {
+      "icon": "Network",
+      "title": "Netzwerk",
+      "text": "Vernetze Dich mit engagierten und ambitionierten jungen Menschen, die etwas bewirken wollen. Wir bringen die verschiedensten Profile zusammen und unterstützen uns gegenseitig.",
+      "image": null,
+      "order": 2
+    },
+    {
+      "icon": "Briefcase",
+      "title": "Erfahrung",
+      "text": "Erlerne wichtige Fähigkeiten in einem dynamischen Startup-Umfeld, das Verantwortung, Softskills und eine steile Lernkurve garantiert. Feedback, Coaching und Lernaustausch inklusive.",
+      "image": null,
+      "order": 3
+    },
+    {
+      "icon": "Clock",
+      "title": "Flexibilität",
+      "text": "Arbeite remote, von wo und wann Du willst. Wir sind flexibel und nehmen Rücksicht auf Deine anderweitigen Verpflichtungen, seien es Klausuren, Urlaub oder familiäre Angelegenheiten.",
+      "image": null,
+      "order": 4
+    }
+  ],
+  "engagement-areas": [
+    {
+      "icon": "Megaphone",
+      "title": "Social Media & Branding",
+      "tagline": "Reichweite & Markenidentität",
+      "description": "Im Bereich Social Media & Branding sorgen wir dafür, dass mehr junge Menschen von Legmon und unseren Angeboten erfahren. Unsere Teams entwickeln virale Short- und Long-Videoformate, recherchieren Themen, schreiben Skripte, koordinieren Interviewpartner und begleiten den gesamten Prozess von der Aufnahme bis zur Veröffentlichung. Darüber hinaus erstellen wir Inhalte für Plattformen wie LinkedIn und entwickeln unsere Marke kontinuierlich weiter. Dazu gehören unter anderem Thumbnails, Grafiken, Merchandise, Sticker, Flyer und weitere kreative Formate rund um Legmons Markenidentität.",
+      "email": "",
+      "order": 0
+    },
+    {
+      "icon": "CalendarHeart",
+      "title": "Community & Events",
+      "tagline": "Gemeinschaft & Erlebnisse",
+      "description": "Im Bereich Community & Events gestalten wir das Erlebnis unserer Mentees und schaffen eine Gemeinschaft, in der junge Menschen Orientierung, Unterstützung und neue Kontakte finden. Unsere Buddys führen Onboarding-Gespräche, unsere Local Hubs organisieren Veranstaltungen an verschiedenen Standorten und weitere Teams koordinieren Webinare, Unternehmensbesuche sowie unsere Sommer- und Winterevents. Gleichzeitig verantworten wir das Matching zwischen Mentees und Mentor:innen, betreuen unsere Mentor:innen und arbeiten daran, unterrepräsentierte Zielgruppen noch besser zu erreichen. Durch die Analyse unserer Community- und Wirkungsdaten entwickeln wir unsere Angebote zudem kontinuierlich weiter.",
+      "email": "",
+      "order": 1
+    },
+    {
+      "icon": "Code2",
+      "title": "Tech & Data",
+      "tagline": "Digitale Infrastruktur & Produkte",
+      "description": "Unser Bereich Tech & Data entwickelt die digitale Infrastruktur, die Legmon im Hintergrund zusammenhält und weiteres Wachstum ermöglicht. Dazu gehören unter anderem unsere Website, Community-Plattformen, Matching- und CRM-Systeme, Airtable-Lösungen sowie Daten-Dashboards. Die Teams automatisieren Prozesse, verbinden unterschiedliche Systeme und entwickeln neue Funktionen für unsere Community und die interne Organisation. Hier kannst Du sowohl technisch entwickeln als auch digitale Produkte und Prozesse konzeptionell mitgestalten.",
+      "email": "",
+      "order": 2
+    },
+    {
+      "icon": "Handshake",
+      "title": "Fundraising & Partnerships",
+      "tagline": "Mittel & Kooperationen",
+      "description": "Im Bereich Fundraising & Partnerships gewinnen wir die finanziellen Mittel und Partnerorganisationen, die unsere Arbeit möglich machen. Dazu akquirieren wir Spenden und Fördermittel, bauen Unternehmenskooperationen auf und entwickeln gemeinsam mit unseren Partnern neue Projekte und Formate. Gleichzeitig knüpfen und pflegen wir Beziehungen zu Schulen, Hochschulen, Universitäten, Initiativen, Creatorn und anderen Organisationen. Über weitere Partnerschaften ermöglichen wir unserer Community außerdem Zugang zu Benefits, Konferenzen, Messetickets und anderen wertvollen Angeboten.",
+      "email": "",
+      "order": 3
+    },
+    {
+      "icon": "Building2",
+      "title": "Internal Affairs",
+      "tagline": "Struktur & Organisation",
+      "description": "Internal Affairs schafft die Strukturen, durch die Legmon professionell, nachhaltig und wirkungsvoll arbeiten kann. Dazu gehören unser Strategy Office, projektbezogene Taskforces sowie People & Organisation mit Themen wie Recruiting, Onboarding und Teamentwicklung. Weitere Teams kümmern sich um Legal, Accounting, Finanzplanung, Finanzmanagement und administrative Prozesse. Auch Qualitätssicherung, Risikomanagement und die kontinuierliche Weiterentwicklung unserer Organisation sind hier verankert.",
+      "email": "",
+      "order": 4
+    },
+    {
+      "icon": "Sprout",
+      "title": "Mentoring",
+      "tagline": "1:1 Begleitung junger Menschen",
+      "description": "Als Mentor:in unterstützt Du einen jungen Menschen persönlich auf seinem individuellen Weg. Du teilst Deine Erfahrungen, gibst Orientierung bei wichtigen Entscheidungen und hilfst beispielsweise bei Bewerbungen, der Studien- oder Berufswahl und dem Aufbau eines persönlichen Netzwerks. Idealerweise befindest Du Dich am Ende Deiner Ausbildung oder Deines Studiums oder hast bereits erste Berufserfahrung gesammelt. Entscheidend sind jedoch vor allem Verlässlichkeit, Empathie und die Bereitschaft, Dein Wissen weiterzugeben.",
+      "email": "",
+      "order": 5
+    },
+    {
+      "icon": "Lightbulb",
+      "title": "Advisory & Support",
+      "tagline": "Beratung ohne festes Team",
+      "description": "Du möchtest Legmon unterstützen, ohne Teil eines festen Teams zu werden? Als Beirats- oder Kuratoriumsmitglied, Advisor, Brand Ambassador oder Supporter kannst Du Deine Erfahrung, Dein Netzwerk oder Deine Reichweite einbringen. Dabei kann es beispielsweise darum gehen, strategisches Feedback zu geben, Türen zu Partnern und Förderern zu öffnen, Legmon in relevanten Netzwerken bekannter zu machen oder einen Vortrag zu halten. Gemeinsam finden wir eine Rolle, die zu Deinen Möglichkeiten und Deiner Expertise passt.",
+      "email": "info@legmon.com",
+      "order": 6
+    }
+  ],
+  "engagement-qualities": [
+    {
+      "icon": "Rocket",
+      "title": "Proaktiv",
+      "text": "Du treibst Themen voran, findest Lösungen und bringst Ideen ein",
+      "order": 0
+    },
+    {
+      "icon": "Target",
+      "title": "Output-driven",
+      "text": "Du bist zielorientiert und möchtest Dinge voranbringen",
+      "order": 1
+    },
+    {
+      "icon": "Wrench",
+      "title": "Hands-on",
+      "text": "Du packst gerne an, bist aber auch strategisch und hinterfragst",
+      "order": 2
+    },
+    {
+      "icon": "Shield",
+      "title": "Verlässlich",
+      "text": "Du lässt nichts fallen, bist strukturiert und kommunizierst klar",
+      "order": 3
+    },
+    {
+      "icon": "Heart",
+      "title": "Sympathisch",
+      "text": "Du bist Teamplayer und andere schätzen dich als Kolleg:in",
+      "order": 4
+    }
+  ],
+  "application-steps": [
+    {
+      "icon": "ClipboardList",
+      "title": "Bewerbung",
+      "text": "Bewirb Dich über den untenstehenden Button in unserem Formular – Keine Sorge, sei einfach Du selbst!",
+      "order": 0
+    },
+    {
+      "icon": "UserCheck",
+      "title": "Prüfung deiner Unterlagen",
+      "text": "Wir prüfen Deine Bewerbung sorgfältig, um zu verstehen, ob Du zu Legmon passen könntest.",
+      "order": 1
+    },
+    {
+      "icon": "Users",
+      "title": "Gruppengespräch",
+      "text": "Passt alles, so machen wir ein Gruppengespräch aus, um Dich kennenzulernen, Fragen zu beantworten und gemeinsam zu klären, in welchem Bereich Du Dich siehst.",
+      "order": 2
+    },
+    {
+      "icon": "MessageSquare",
+      "title": "Interview",
+      "text": "Je nach Rolle, führt ein Team-Lead oder unser Mentor-Manager ein Interview mit Dir, um Deine Motivation zu verstehen und zu prüfen inwiefern Du zum Team passt.",
+      "order": 3
+    },
+    {
+      "icon": "Timer",
+      "title": "Kennenlernzeit",
+      "text": "Du hast uns im Interview überzeugt, herzlich willkommen! Nach etwa 4–8 Wochen Probezeit gibt es dann noch ein kurzes Zwischengespräch, um sicherzugehen, dass wir zueinander passen.",
+      "order": 4
+    }
+  ],
+  "content-topics": [
+    {
+      "slug": "stipendien",
+      "label": "Stipendien",
+      "icon": "Sparkles",
+      "headline": "Mehr Durchblick im Stipendien-Dschungel",
+      "description": "Videos rund um Bewerbungsprozesse, Stipendienarten und konkrete Tipps, wie du passende Förderungen für dich findest.",
+      "order": 0
+    },
+    {
+      "slug": "studiengaenge",
+      "label": "Studiengänge",
+      "icon": "BookOpen",
+      "headline": "Studiengänge besser verstehen",
+      "description": "Einblicke in Fächer, Studienalltag und Entscheidungshilfen, damit du realistischer einschätzen kannst, was zu dir passt.",
+      "order": 1
+    },
+    {
+      "slug": "berufsvorstellungen",
+      "label": "Berufsvorstellungen",
+      "icon": "Briefcase",
+      "headline": "Berufe greifbar machen",
+      "description": "Ehrliche Einblicke in Branchen, Rollen und Karrierewege, damit du besser verstehst, wie verschiedene Berufe wirklich aussehen.",
+      "order": 2
+    },
+    {
+      "slug": "stories",
+      "label": "Inspirierende Stories",
+      "icon": "Compass",
+      "headline": "Geschichten, die Mut machen",
+      "description": "Persönliche Wege, ehrliche Hürden und inspirierende Erfahrungen aus der Community und darüber hinaus.",
+      "order": 3
+    }
+  ],
+  "content-videos": [
+    {
+      "title": "So findest du ein Stipendium, das wirklich zu dir passt",
+      "topic": "stipendien",
+      "length": "12 Min.",
+      "description": "Ein kompakter Überblick über Förderwerke, Stipendienarten und erste Schritte für deine Suche.",
+      "order": 0
+    },
+    {
+      "title": "Typische Fehler in Stipendienbewerbungen vermeiden",
+      "topic": "stipendien",
+      "length": "9 Min.",
+      "description": "Welche Stolperfallen häufig auftreten und wie du deine Bewerbung klarer, authentischer und überzeugender machst.",
+      "order": 1
+    },
+    {
+      "title": "Wie schreibe ich ein starkes Motivationsschreiben?",
+      "topic": "stipendien",
+      "length": "10 Min.",
+      "description": "Ein Blick auf Aufbau, Tonalität und Inhalte, mit denen dein Schreiben persönlicher und überzeugender wird.",
+      "order": 2
+    },
+    {
+      "title": "Begabtenförderungswerke einfach erklärt",
+      "topic": "stipendien",
+      "length": "14 Min.",
+      "description": "Welche Förderwerke es gibt, wie sie sich unterscheiden und worauf du bei der Auswahl achten solltest.",
+      "order": 3
+    },
+    {
+      "title": "Stipendien-Interview: So bereitest du dich vor",
+      "topic": "stipendien",
+      "length": "8 Min.",
+      "description": "Die wichtigsten Fragen, typische Situationen und praktische Tipps für einen sicheren Auftritt im Auswahlgespräch.",
+      "order": 4
+    },
+    {
+      "title": "Was passiert eigentlich im Medizinstudium?",
+      "topic": "studiengaenge",
+      "length": "15 Min.",
+      "description": "Ein realistischer Einblick in Inhalte, Anforderungen und Alltag eines besonders gefragten Studiengangs.",
+      "order": 5
+    },
+    {
+      "title": "Jura, BWL oder Informatik: Wie unterscheiden sich diese Studiengänge?",
+      "topic": "studiengaenge",
+      "length": "8 Min.",
+      "description": "Ein Vergleich typischer Studienrichtungen, damit du Unterschiede bei Inhalten, Perspektiven und Anforderungen besser einordnen kannst.",
+      "order": 6
+    },
+    {
+      "title": "Psychologie studieren: Erwartungen vs. Realität",
+      "topic": "studiengaenge",
+      "length": "11 Min.",
+      "description": "Wie das Studium tatsächlich aufgebaut ist, welche Inhalte häufig überraschen und worauf du vorbereitet sein solltest.",
+      "order": 7
+    },
+    {
+      "title": "Ingenieurwesen im Überblick",
+      "topic": "studiengaenge",
+      "length": "13 Min.",
+      "description": "Von Maschinenbau bis Elektrotechnik: ein erster Einblick in Studieninhalte, Praxisbezug und Karrierewege.",
+      "order": 8
+    },
+    {
+      "title": "Lehramt studieren: Für wen passt das wirklich?",
+      "topic": "studiengaenge",
+      "length": "9 Min.",
+      "description": "Ein ehrlicher Blick auf Verantwortung, Studienalltag und die Fragen, die du dir vorher stellen solltest.",
+      "order": 9
+    },
+    {
+      "title": "Ein Tag im Leben einer Unternehmensberaterin",
+      "topic": "berufsvorstellungen",
+      "length": "11 Min.",
+      "description": "Wie sieht der Berufsalltag wirklich aus, welche Skills braucht man und was überrascht viele beim Einstieg?",
+      "order": 10
+    },
+    {
+      "title": "Was macht eigentlich ein Product Manager?",
+      "topic": "berufsvorstellungen",
+      "length": "7 Min.",
+      "description": "Eine verständliche Einführung in Aufgaben, Schnittstellen und typische Karrierewege im Produktbereich.",
+      "order": 11
+    },
+    {
+      "title": "Arbeiten im Investment Banking",
+      "topic": "berufsvorstellungen",
+      "length": "12 Min.",
+      "description": "Zwischen Tempo, Verantwortung und Lernkurve: ein ehrlicher Einblick in einen oft missverstandenen Beruf.",
+      "order": 12
+    },
+    {
+      "title": "Wie sieht der Alltag einer Ärztin aus?",
+      "topic": "berufsvorstellungen",
+      "length": "10 Min.",
+      "description": "Von Klinikroutine bis Belastung: ein realistisches Bild der Arbeit im medizinischen Umfeld.",
+      "order": 13
+    },
+    {
+      "title": "UX Design als Beruf",
+      "topic": "berufsvorstellungen",
+      "length": "8 Min.",
+      "description": "Welche Aufgaben dazugehören, wie Teams arbeiten und welche Skills im Design-Alltag wirklich zählen.",
+      "order": 14
+    },
+    {
+      "title": "Vom Arbeiterkind an die Uni: Eine persönliche Geschichte",
+      "topic": "stories",
+      "length": "10 Min.",
+      "description": "Ein ehrlicher Erfahrungsbericht über Zweifel, erste Schritte und die Menschen, die unterwegs unterstützt haben.",
+      "order": 15
+    },
+    {
+      "title": "Wie Mentoring einen Lebensweg verändern kann",
+      "topic": "stories",
+      "length": "13 Min.",
+      "description": "Eine inspirierende Story darüber, wie Unterstützung, Orientierung und Community neue Chancen eröffnet haben.",
+      "order": 16
+    },
+    {
+      "title": "Erste Generation im Studium: Was niemand sagt",
+      "topic": "stories",
+      "length": "9 Min.",
+      "description": "Eine persönliche Geschichte über Unsicherheit, Anpassung und das Gefühl, sich neue Räume erst erobern zu müssen.",
+      "order": 17
+    },
+    {
+      "title": "Vom Zweifel zur Zusage: Mein Weg zum Praktikum",
+      "topic": "stories",
+      "length": "11 Min.",
+      "description": "Wie Rückschläge, kleine Fortschritte und Unterstützung am Ende den Unterschied gemacht haben.",
+      "order": 18
+    },
+    {
+      "title": "Warum Community manchmal der Gamechanger ist",
+      "topic": "stories",
+      "length": "7 Min.",
+      "description": "Eine motivierende Story über Zugehörigkeit, gegenseitige Unterstützung und neue Perspektiven.",
+      "order": 19
+    }
+  ]
+}
