@@ -18,7 +18,8 @@
     "topic": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::content-topic.content-topic"
+      "target": "api::content-topic.content-topic",
+      "required": true
     },
     "length": {
       "type": "string"

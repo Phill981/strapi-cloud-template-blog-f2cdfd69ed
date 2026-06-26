@@ -15,7 +15,8 @@
     "topic": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::experience-topic.experience-topic"
+      "target": "api::experience-topic.experience-topic",
+      "required": true
     },
     "title": {
       "type": "string"

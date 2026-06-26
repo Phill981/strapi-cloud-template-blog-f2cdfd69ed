@@ -18,7 +18,8 @@
     "category": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::blog-category.blog-category"
+      "target": "api::blog-category.blog-category",
+      "required": true
     },
     "title": {
       "type": "string"

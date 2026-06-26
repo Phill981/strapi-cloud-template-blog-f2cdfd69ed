@@ -24,7 +24,8 @@
         "spotify",
         "linkedin",
         "discord"
-      ]
+      ],
+      "required": true
     },
     "href": {
       "type": "string"

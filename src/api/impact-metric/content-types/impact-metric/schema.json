@@ -18,7 +18,8 @@
         "home",
         "impact",
         "wirkung"
-      ]
+      ],
+      "required": true
     },
     "slug": {
       "type": "string"

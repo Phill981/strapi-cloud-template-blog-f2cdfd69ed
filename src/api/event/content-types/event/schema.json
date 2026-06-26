@@ -33,14 +33,17 @@
     "category": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::event-category.event-category"
+      "target": "api::event-category.event-category",
+      "required": true
     },
     "imageMode": {
       "type": "enumeration",
       "enum": [
         "background",
         "inline"
-      ]
+      ],
+      "default": "background",
+      "required": true
     },
     "image": {
       "type": "media",

@@ -26,7 +26,9 @@
       "enum": [
         "video",
         "photo"
-      ]
+      ],
+      "default": "photo",
+      "required": true
     },
     "media": {
       "type": "media",

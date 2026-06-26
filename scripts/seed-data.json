@@ -46,7 +46,7 @@
       "memberOnly": false,
       "category": "webinar",
       "imageMode": "background",
-      "image": null,
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
       "description": "Erfahre von erfahrenen Consultants, wie der Einstieg in die Beratungsbranche gelingt.",
       "link": "#",
       "order": 0
@@ -59,7 +59,7 @@
       "memberOnly": true,
       "category": "unternehmen",
       "imageMode": "inline",
-      "image": null,
+      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80",
       "description": "Erhalte einen exklusiven Einblick in die Arbeitswelt bei Google und lerne verschiedene Rollen im Unternehmen kennen.",
       "link": "#",
       "order": 1
@@ -72,7 +72,7 @@
       "memberOnly": false,
       "category": "community",
       "imageMode": "inline",
-      "image": null,
+      "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
       "description": "Lerne andere Legmon-Mitglieder in entspannter Atmosphäre kennen und tausche dich über Studium, Karriere und persönliche Erfahrungen aus.",
       "link": "#",
       "order": 2
@@ -85,7 +85,7 @@
       "memberOnly": false,
       "category": "webinar",
       "imageMode": "background",
-      "image": null,
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80",
       "description": "In diesem Workshop geht es um erfolgreiche Bewerbungen bei DAX-Unternehmen und Startups.",
       "link": "#",
       "order": 3
@@ -98,7 +98,7 @@
       "memberOnly": true,
       "category": "unternehmen",
       "imageMode": "inline",
-      "image": null,
+      "image": "https://images.unsplash.com/photo-1497366412874-3415097a27e7?auto=format&fit=crop&w=1200&q=80",
       "description": "Lerne die verschiedenen Karrierewege bei Siemens kennen und erfahre, welche Einstiegsoptionen es für Studierende und Berufseinsteiger:innen gibt.",
       "link": "#",
       "order": 4
@@ -111,7 +111,7 @@
       "memberOnly": false,
       "category": "community",
       "imageMode": "background",
-      "image": null,
+      "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80",
       "description": "Unser regionales Treffen in Hamburg bringt Community Member aus der Umgebung zusammen.",
       "link": "#",
       "order": 5
@@ -124,7 +124,7 @@
       "memberOnly": false,
       "category": "community",
       "imageMode": "inline",
-      "image": null,
+      "image": "https://images.unsplash.com/photo-1503428593586-e225b39bddfe?auto=format&fit=crop&w=1200&q=80",
       "description": "Beim Meetup in Frankfurt kannst du neue Community Member kennenlernen und bestehende Kontakte vertiefen.",
       "link": "#",
       "order": 6
@@ -138,7 +138,7 @@
       "memberOnly": true,
       "category": "konferenzen-messen",
       "imageMode": "background",
-      "image": null,
+      "image": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=1200&q=80",
       "description": "Die Messe in Mannheim bringt verschiedene Unternehmenspartner und interessierte Talente zusammen.",
       "link": "#",
       "order": 7
@@ -1636,35 +1636,35 @@
       "icon": "Sparkles",
       "title": "Impact",
       "text": "Geh einer erfüllenden Tätigkeit mit vielen Erfolgserlebnissen nach und hinterlasse Deine eigene Handschrift. Bei Legmon kann sich jede:r selbstverwirklichen und gleichzeitig etwas Gutes tun.",
-      "image": null,
+      "image": "assets/Engagement_Impact.webp",
       "order": 0
     },
     {
       "icon": "Smile",
       "title": "Spaß",
       "text": "Bring Dich in unsere diverse Community ein, schließe Freundschaften fürs Leben und arbeite an spannenden Aufgaben. Nicht zu vergessen natürlich die legendären Legmon Team-Events.",
-      "image": null,
+      "image": "assets/Engagement_Spass.webp",
       "order": 1
     },
     {
       "icon": "Network",
       "title": "Netzwerk",
       "text": "Vernetze Dich mit engagierten und ambitionierten jungen Menschen, die etwas bewirken wollen. Wir bringen die verschiedensten Profile zusammen und unterstützen uns gegenseitig.",
-      "image": null,
+      "image": "assets/Engagement_Netzwerk.webp",
       "order": 2
     },
     {
       "icon": "Briefcase",
       "title": "Erfahrung",
       "text": "Erlerne wichtige Fähigkeiten in einem dynamischen Startup-Umfeld, das Verantwortung, Softskills und eine steile Lernkurve garantiert. Feedback, Coaching und Lernaustausch inklusive.",
-      "image": null,
+      "image": "assets/Engagement_Erfahrung.webp",
       "order": 3
     },
     {
       "icon": "Clock",
       "title": "Flexibilität",
       "text": "Arbeite remote, von wo und wann Du willst. Wir sind flexibel und nehmen Rücksicht auf Deine anderweitigen Verpflichtungen, seien es Klausuren, Urlaub oder familiäre Angelegenheiten.",
-      "image": null,
+      "image": "assets/Engagement_Flexibilität.webp",
       "order": 4
     }
   ],

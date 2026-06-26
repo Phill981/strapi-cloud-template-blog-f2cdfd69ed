@@ -32,7 +32,8 @@
         "sponsor",
         "partner",
         "donor"
-      ]
+      ],
+      "required": true
     },
     "order": {
       "type": "integer"

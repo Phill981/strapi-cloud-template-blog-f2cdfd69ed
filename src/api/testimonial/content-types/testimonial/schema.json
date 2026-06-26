@@ -35,7 +35,8 @@
         "impact",
         "wirkung",
         "community"
-      ]
+      ],
+      "required": true
     },
     "order": {
       "type": "integer"
