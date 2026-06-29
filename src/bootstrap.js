@@ -4,6 +4,7 @@ const fs = require('fs-extra');
 const path = require('path');
 const mime = require('mime-types');
 const { categories, authors, articles, global, about } = require('../data/data.json');
+const registerAdminInviteEmail = require('./admin-invite-email');
 
 async function seedExampleApp() {
   const shouldImportSeedData = await isFirstRun();
@@ -270,5 +271,6 @@ async function main() {
 
 
 module.exports = async () => {
+  registerAdminInviteEmail(strapi);
   await seedExampleApp();
 };
