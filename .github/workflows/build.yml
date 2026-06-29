@@ -1,3 +1,10 @@
+name: Build and push Strapi image
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
 env:
   REGISTRY: ghcr.io
 
