@@ -153,7 +153,7 @@ const MODEL = {
 
 	// --- partners (companies / schools / universities) ---
 	'partner-option': { icon: string(), title: string(), subtitle: string(), description: text(), order: order() },
-	'company-visit': { company: string(), activity: string(), impact: string(), quote: text(), hr: string(), logo: media(), photo: media(), order: order() },
+	'company-visit': { company: string(), activity: string(), impact: string(), photo: media(), order: order() },
 	'school-benefit': { icon: string(), title: string(), text: text(), order: order() },
 	workshop: { title: string(), description: text(), dauer: string(), stufe: string(), order: order() },
 	'school-visit': { school: string(), activity: string(), quote: text(), teacher: string(), logo: media(), photo: media(), order: order() },

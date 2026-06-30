@@ -21,19 +21,6 @@
     "impact": {
       "type": "string"
     },
-    "quote": {
-      "type": "text"
-    },
-    "hr": {
-      "type": "string"
-    },
-    "logo": {
-      "type": "media",
-      "multiple": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "photo": {
       "type": "media",
       "multiple": false,
