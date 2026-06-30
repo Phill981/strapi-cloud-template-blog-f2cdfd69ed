@@ -21,6 +21,17 @@
     "description": {
       "type": "text"
     },
+    "video": {
+      "type": "customField",
+      "customField": "plugin::oembed.oembed"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
     "order": {
       "type": "integer"
     }

@@ -1,4 +1,7 @@
 module.exports = ({ env }) => ({
+  oembed: {
+    enabled: true,
+  },
   email: {
     config: {
       provider: 'nodemailer',

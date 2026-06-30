@@ -32,11 +32,16 @@ const decimal = () => ({ type: 'decimal' });
 const boolean = () => ({ type: 'boolean' });
 const date = () => ({ type: 'date' });
 const media = () => ({ type: 'media', multiple: false, allowedTypes: ['images'] });
+const oembed = () => ({ type: 'customField', customField: 'plugin::oembed.oembed' });
 const enumeration = (...values) => ({ type: 'enumeration', enum: values });
 const relOne = (target) => ({ type: 'relation', relation: 'oneToOne', target: `api::${target}.${target}` });
 const relMany = (target) => ({ type: 'relation', relation: 'oneToMany', target: `api::${target}.${target}` });
 const component = (name, repeatable = false) => ({ type: 'component', repeatable, component: name });
 const order = () => ({ type: 'integer' });
+// Wrappers. Key order matters: Strapi writes `default` before `required`, so
+// apply withDefault() inside required() to reproduce the on-disk schema exactly.
+const required = (attr) => ({ ...attr, required: true });
+const withDefault = (value, attr) => ({ ...attr, default: value });
 
 // ---- the full target model -------------------------------------------------
 // singular => attributes. Plural endpoints are derived (with explicit overrides
@@ -126,26 +131,26 @@ const META = {
 
 const MODEL = {
 	// --- shared collections ---
-	logo: { name: string(), image: media(), url: string(), category: enumeration('press', 'sponsor', 'partner', 'donor'), order: order() },
+	logo: { name: string(), image: media(), url: string(), category: required(enumeration('press', 'sponsor', 'partner', 'donor')), order: order() },
 	mentor: { name: string(), title: string(), description: text(), topics: relMany('mentoring-topic'), photo: media(), featured: boolean(), order: order() },
 	'mentoring-topic': { name: string(), order: order() },
-	testimonial: { quote: text(), name: string(), role: string(), photo: media(), placement: enumeration('homepage', 'impact', 'wirkung', 'community'), order: order() },
-	'social-channel': { name: string(), iconType: enumeration('youtube', 'instagram', 'tiktok', 'spotify', 'linkedin', 'discord'), href: string(), order: order() },
-	'impact-metric': { page: enumeration('home', 'impact', 'wirkung'), slug: string(), label: string(), value: decimal(), prefix: string(), suffix: string(), decimals: integer(), icon: string(), order: order() },
+	testimonial: { quote: text(), name: string(), role: string(), photo: media(), placement: required(enumeration('homepage', 'impact', 'wirkung', 'community')), order: order() },
+	'social-channel': { name: string(), iconType: required(enumeration('youtube', 'instagram', 'tiktok', 'spotify', 'linkedin', 'discord')), href: string(), order: order() },
+	'impact-metric': { page: required(enumeration('home', 'impact', 'wirkung')), slug: string(), label: string(), value: decimal(), prefix: string(), suffix: string(), decimals: integer(), icon: string(), order: order() },
 
 	// --- events ---
 	'event-category': { slug: string(), label: string(), mobileLabel: string(), icon: string(), heading: string(), description: text(), order: order() },
-	event: { title: string(), date: date(), endDate: date(), time: string(), location: string(), memberOnly: boolean(), category: relOne('event-category'), imageMode: enumeration('background', 'inline'), image: media(), description: text(), link: string(), order: order() },
+	event: { title: string(), date: date(), endDate: date(), time: string(), location: string(), memberOnly: boolean(), category: required(relOne('event-category')), imageMode: required(withDefault('background', enumeration('background', 'inline'))), image: media(), description: text(), link: string(), order: order() },
 
 	// --- blog / faq ---
 	'blog-category': { name: string(), order: order() },
-	'blog-post': { date: string(), category: relOne('blog-category'), title: string(), description: text(), body: richtext(), coverImage: media(), readTime: string(), link: string(), order: order() },
+	'blog-post': { date: string(), category: required(relOne('blog-category')), title: string(), description: text(), body: richtext(), coverImage: media(), readTime: string(), link: string(), order: order() },
 	'faq-topic': { title: string(), subtitle: string(), items: component('faq.item', true), order: order() },
 
 	// --- mentoring ---
 	'mentoring-step': { step: string(), title: string(), description: text(), order: order() },
 	'experience-topic': { name: string(), order: order() },
-	'mentoring-experience': { topic: relOne('experience-topic'), title: string(), name: string(), role: string(), quote: text(), order: order() },
+	'mentoring-experience': { topic: required(relOne('experience-topic')), title: string(), name: string(), role: string(), quote: text(), order: order() },
 
 	// --- about ---
 	'timeline-milestone': { year: string(), title: string(), description: text(), order: order() },
@@ -164,11 +169,11 @@ const MODEL = {
 	'ambassador-step': { step: string(), title: string(), description: text(), order: order() },
 	'ambassador-requirement': { requirement: string(), order: order() },
 	'community-value': { icon: string(), title: string(), text: text(), order: order() },
-	'member-preview': { name: string(), role: string(), quote: text(), type: enumeration('video', 'photo'), media: media(), order: order() },
+	'member-preview': { name: string(), role: string(), quote: text(), type: required(withDefault('photo', enumeration('video', 'photo'))), media: media(), order: order() },
 
 	// --- impact / wirkung ---
-	'success-story': { name: string(), title: string(), description: text(), type: enumeration('text', 'video'), photo: media(), videoUrl: string(), order: order() },
-	'member-story': { name: string(), title: string(), description: text(), order: order() },
+	'success-story': { name: string(), title: string(), description: text(), type: required(withDefault('text', enumeration('text', 'video'))), photo: media(), videoUrl: string(), order: order() },
+	'member-story': { name: string(), title: string(), description: text(), video: oembed(), photo: media(), order: order() },
 
 	// --- engagement ---
 	'engagement-highlight': { icon: string(), title: string(), text: text(), image: media(), order: order() },
@@ -178,7 +183,7 @@ const MODEL = {
 
 	// --- content / signup ---
 	'content-topic': { slug: string(), label: string(), icon: string(), headline: string(), description: text(), order: order() },
-	'content-video': { title: string(), topic: relOne('content-topic'), length: string(), description: text(), order: order() },
+	'content-video': { title: string(), topic: required(relOne('content-topic')), length: string(), description: text(), order: order() },
 	'registration-type': { slug: string(), label: string(), icon: string(), description: text(), order: order() },
 	'signup-step': { step: string(), title: string(), description: text(), order: order() }
 };
