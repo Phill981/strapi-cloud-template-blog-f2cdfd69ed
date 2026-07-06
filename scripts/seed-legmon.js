@@ -34,6 +34,21 @@ if (!BASE || !TOKEN) {
 
 const data = JSON.parse(fs.readFileSync(path.join(__dirname, 'seed-data.json'), 'utf8'));
 
+// The mentoring database (experience-topics + mentoring-experiences) is large and
+// machine-generated from the CSV by scripts/build-mentoring-db.py. When present,
+// it overrides the placeholder arrays in seed-data.json.
+const generatedPath = path.join(__dirname, 'mentoring-db.generated.json');
+if (fs.existsSync(generatedPath)) {
+	Object.assign(data, JSON.parse(fs.readFileSync(generatedPath, 'utf8')));
+}
+
+// Optional: seed only a subset, e.g. ONLY=experience-topics,mentoring-experiences
+// (taxonomies are always seeded before the collections that reference them).
+const ONLY = (process.env.ONLY || '')
+	.split(',')
+	.map((s) => s.trim())
+	.filter(Boolean);
+
 const headers = { Authorization: `Bearer ${TOKEN}`, 'Content-Type': 'application/json' };
 
 // Taxonomies must be created first; map their key field -> documentId.
@@ -223,7 +238,8 @@ async function seedCollection(plural, records) {
 
 async function main() {
 	console.log(`Seeding ${BASE}\n`);
-	const allKeys = Object.keys(data);
+	const allKeys = Object.keys(data).filter((k) => !ONLY.length || ONLY.includes(k));
+	if (ONLY.length) console.log(`ONLY: ${allKeys.join(', ') || '(no matching keys!)'}\n`);
 	const taxonomyKeys = allKeys.filter((k) => TAXONOMY_KEY[k]);
 	const restKeys = allKeys.filter((k) => !TAXONOMY_KEY[k]);
 
